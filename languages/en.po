@@ -1,1 +1,2912 @@
-a
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Blah again\n"
+"Language: ro\n"
+
+#: application/models/languages/Language.php:21
+#: application/models/user/User.php:549
+msgid "Language is mandatory!"
+msgstr "Limba e obligatorie!"
+
+#. gs
+#: application/models/languages/Language.php:33
+msgid "Language already exists!"
+msgstr "Limba deja există!"
+
+#: application/models/projects/Project.php:641
+msgid "Project name is mandatory!"
+msgstr "Numele proiectului e obigatoriu!"
+
+#: application/models/projects/Project.php:692
+msgid "Upload a file!"
+msgstr "Încarcă un fişier!"
+
+#. tttt
+#: application/models/projects/Project.php:695
+msgid "Select a language!"
+msgstr "Alege o limba!"
+
+#: application/models/projects/Project.php:892
+msgid "Choose a language!"
+msgstr "Alege o limba!"
+
+#: application/models/projects/Project.php:897
+msgid "Choose the type!"
+msgstr "Alege tipul!"
+
+#: application/models/terms/Term.php:88
+msgid "This term is empty."
+msgstr "Termenul este gol."
+
+#: application/modules/default/views/login/recovery.php:20
+msgid "Reset password"
+msgstr "Reseteaza parola"
+
+#: application/models/user/User.php:280
+msgid "Type an email address!"
+msgstr "Introdu o adresă de email!"
+
+#: application/models/user/User.php:282
+msgid "Email address is not valid!"
+msgstr "Adresa de email nu este validă!"
+
+#: application/models/user/User.php:286
+msgid "Email address doesn't exist in the database."
+msgstr "Adresa de email nu există în baza de date."
+
+#: application/models/user/User.php:301
+msgid "Could not reset password."
+msgstr "Parola nu a putut fi resetată."
+
+#: application/models/user/User.php:310 application/models/user/User.php:320
+msgid "The old password is mandatory"
+msgstr "Vechea parola este obligatorie"
+
+#: application/models/user/User.php:312
+msgid "The old password is wrong"
+msgstr "Vechea parola este incorecta"
+
+#: application/models/user/User.php:316
+msgid "The new password is mandatory"
+msgstr "Noua parola este obligatorie"
+
+#: application/models/user/User.php:324
+msgid "New password and confirmation don't match"
+msgstr "Noua parolă şi confirmarea nu se potrivesc."
+
+#: application/models/user/User.php:334
+msgid "You didn't fill in the password"
+msgstr "Nu ai introdus parola"
+
+#: application/models/user/User.php:338
+msgid "You didn't confirm the password"
+msgstr "Nu confirma parola"
+
+#: application/models/user/User.php:342
+msgid "The password and confirmation don't match"
+msgstr "Parolele nu sunt identice"
+
+#: application/models/user/User.php:352 application/models/user/User.php:382
+#: application/models/user/User.php:403
+msgid "name is mandatory!"
+msgstr "numele este obligatoriu!"
+
+#: application/models/user/User.php:356
+msgid "the email is not valid!"
+msgstr "emailul nu este valid!"
+
+#: application/models/user/User.php:358
+msgid "the email address is already used in our database!"
+msgstr "adresa de email exista deja in baza de date!"
+
+#: application/models/user/User.php:362
+msgid "the password should have minimum 6 characters!"
+msgstr "parola trebuie sa contina min. 6 caractere!"
+
+#: application/models/user/User.php:364
+msgid "password and confirmation do not match!"
+msgstr "parolele nu sunt identice!"
+
+#: application/models/user/User.php:679
+msgid "Reminder"
+msgstr "Notificare"
+
+#: application/modules/admin/controllers/Projects.php:115
+#: application/modules/default/controllers/Projects.php:670
+msgid "The project was deleted."
+msgstr "Proiectul a fost sters."
+
+#: application/modules/admin/views/pagination.php:8
+#: application/modules/default/views/pagination.php:8
+msgid "Previous page"
+msgstr "Pagina precedenta"
+
+#: application/modules/admin/views/pagination.php:8
+#: application/modules/admin/views/pagination.php:14
+#: application/modules/default/views/pagination.php:8
+#: application/modules/default/views/pagination.php:14
+msgid "Previous"
+msgstr "Precedenta"
+
+#: application/modules/admin/views/pagination.php:26
+#: application/modules/admin/views/pagination.php:31
+#: application/modules/admin/views/pagination.php:46
+#: application/modules/default/views/pagination.php:26
+#: application/modules/default/views/pagination.php:31
+#: application/modules/default/views/pagination.php:46
+msgid "Page"
+msgstr "Pagina"
+
+#: application/modules/admin/views/pagination.php:74
+#: application/modules/default/views/pagination.php:74
+msgid "Next page"
+msgstr "Pagina urmatoare"
+
+#: application/modules/admin/views/pagination.php:74
+#: application/modules/admin/views/pagination.php:79
+#: application/modules/default/views/pagination.php:74
+#: application/modules/default/views/pagination.php:79
+msgid "Next"
+msgstr "Urmatoarea"
+
+#: application/modules/admin/views/error/index.php:6
+msgid "The page you are looking for has been moved or no longer exists"
+msgstr "Pagina pe care o cauti a fost mutata sau nu mai exista."
+
+#: application/modules/admin/views/error/index.php:11
+#: application/modules/default/views/error/index.php:21
+msgid "Technical information:"
+msgstr "Technical information:"
+
+#: application/modules/admin/views/projects/edit.php:21
+#: application/modules/default/views/projects/stats.php:14
+#: application/modules/default/views/projects/view.php:6
+msgid "Project"
+msgstr "Proiect"
+
+#: application/modules/admin/views/projects/edit.php:24
+#: application/modules/admin/views/projects/edit_language.php:30
+#: application/modules/default/views/account/change_password.php:36
+#: application/modules/default/views/account/edit.php:54
+#: application/modules/default/views/projects/settings.php:179
+#: application/modules/default/views/projects/view.php:155
+#: application/modules/default/views/projects/view_terms.php:144
+msgid "Save"
+msgstr "Salveaza"
+
+#: application/modules/admin/views/users/view.php:202
+#: application/modules/default/views/projects/index.php:110
+#, fuzzy
+msgid "No shared projects."
+msgstr "Nu exista proiecte."
+
+#: application/modules/default/controllers/Account.php:7
+#: application/modules/default/controllers/AutoTranslate.php:7
+#: application/modules/default/controllers/Contact.php:21
+#: application/modules/default/controllers/Contributors.php:7
+#: application/modules/default/controllers/Help.php:7
+#: application/modules/default/controllers/Join.php:7
+#: application/modules/default/controllers/Login.php:7
+#: application/modules/default/controllers/Projects.php:57
+#: application/modules/default/controllers/Register.php:8
+#: application/modules/default/controllers/Terms.php:7
+#: application/modules/default/views/modules/footer.php:5
+msgid "Home"
+msgstr "Acasa"
+
+#: application/modules/default/controllers/Account.php:8
+#: application/modules/default/controllers/Account.php:27
+#: application/modules/default/controllers/Account.php:61
+#: application/modules/default/controllers/Account.php:72
+#: application/modules/default/controllers/Account.php:85
+#: application/modules/default/views/account/index.php:4
+#: application/modules/default/views/help/index.php:28
+msgid "My account"
+msgstr "Contul meu"
+
+#: application/modules/default/controllers/Account.php:69
+msgid "The modifications have been saved."
+msgstr "Modificarile au fost salvate."
+
+#: application/modules/default/controllers/Account.php:72
+#: application/modules/default/controllers/Account.php:73
+#: application/modules/default/controllers/Account.php:85
+#: application/modules/default/controllers/Account.php:86
+#: application/modules/default/views/projects/settings.php:18
+msgid "Edit"
+msgstr "Edit"
+
+#: application/modules/default/controllers/Account.php:81
+msgid "The password has been changed"
+msgstr "Parola a fost modificata"
+
+#: application/modules/default/controllers/Account.php:85
+#: application/modules/default/controllers/Account.php:87
+#: application/modules/default/views/account/index.php:15
+msgid "Change password"
+msgstr "Modifica parola"
+
+#: application/modules/default/controllers/Contributors.php:8
+#: application/modules/default/views/contributors/index.php:4
+#: application/modules/default/views/email/new_contributor_joins_project.php:17
+#: application/modules/default/views/projects/view.php:36
+msgid "Contributors"
+msgstr "Contribuitor"
+
+#: application/modules/default/controllers/Contributors.php:108
+#: application/modules/default/controllers/Projects.php:1489
+#: application/modules/default/controllers/Projects.php:1552
+msgid "The language was deleted!"
+msgstr "Limba a fost stearsa!"
+
+#: application/modules/default/controllers/Contributors.php:110
+#: application/modules/default/controllers/Projects.php:1514
+#: application/modules/default/controllers/Projects.php:1554
+#: application/modules/default/controllers/Projects.php:1557
+msgid "The language was not found!"
+msgstr "Limba nu a fost gasita!"
+
+#: application/modules/default/controllers/Login.php:8
+#: application/modules/default/controllers/Login.php:9
+#: application/modules/default/controllers/Login.php:57
+#: application/modules/default/views/index/index.php:102
+#: application/modules/default/views/login/index.php:3
+#: application/modules/default/views/login/index.php:34
+#: application/modules/default/views/modules/header.php:53
+msgid "Login"
+msgstr "Login"
+
+#: application/modules/default/controllers/Login.php:30
+#, fuzzy
+msgid "Wrong username or password."
+msgstr "Parola sau utilizator gresite."
+
+#: application/modules/default/controllers/Login.php:52
+msgid "An email was sent to the address you provided."
+msgstr "Un email a fost trimis pe adresa specificata."
+
+#: application/modules/default/controllers/Login.php:57
+#: application/modules/default/controllers/Login.php:58
+msgid "Recovery"
+msgstr "Recuperare"
+
+#: application/modules/default/controllers/Login.php:119
+msgid "The new password was sent to the email address you provided."
+msgstr "Noua parola a fost trimisa pe adresa ta de email."
+
+#: application/modules/default/controllers/Login.php:121
+msgid "Could not reset your password"
+msgstr "Parola nu a putut fi resetata"
+
+#: application/modules/default/controllers/Page.php:47
+#, fuzzy
+msgid "The item has been activated"
+msgstr "The item has been activated"
+
+#: application/modules/default/controllers/Page.php:54
+#, fuzzy
+msgid "The item has been deactivated"
+msgstr "The item has been deactivated"
+
+#: application/modules/default/controllers/AutoTranslate.php:8
+#: application/modules/default/controllers/Projects.php:58
+#: application/modules/default/controllers/Projects.php:268
+#: application/modules/default/views/account/api.php:38
+#: application/modules/default/views/help/index.php:42
+msgid "Projects"
+msgstr "Proiecte"
+
+#: application/modules/default/controllers/Projects.php:176
+msgid "The project was added."
+msgstr "Proiectul a fost adaugat."
+
+#: application/modules/default/controllers/Projects.php:305
+msgid "New term was added."
+msgstr "A fost adaugat un nou termen."
+
+#: application/modules/default/controllers/Projects.php:1153
+#: application/modules/default/controllers/Terms.php:8
+#: application/modules/default/views/modules/footer.php:7
+#: application/modules/default/views/projects/view_terms.php:6
+msgid "Terms"
+msgstr "Termeni"
+
+#: application/modules/default/views/projects/stats.php:62
+#: application/modules/default/views/projects/stats.php:172
+#: application/modules/default/views/projects/stats.php:174
+msgid "Definitions"
+msgstr "Definitii"
+
+#: application/modules/default/controllers/Projects.php:591
+#: application/modules/default/controllers/Projects.php:594
+#: application/modules/default/views/index/index.php:194
+#: application/modules/default/views/projects/po_edit.php:34
+msgid "Stats"
+msgstr "Statistici"
+
+#: application/modules/default/controllers/AutoTranslate.php:91
+#: application/modules/default/controllers/Projects.php:598
+#: application/modules/default/controllers/Projects.php:672
+msgid "The project was not found."
+msgstr "Proiectul nu a fost gasit."
+
+#: application/modules/default/controllers/Projects.php:686
+msgid "All terms and definitions were deleted!"
+msgstr "Toti termenii si definitiile au fost stersi!"
+
+#: application/modules/default/controllers/Projects.php:696
+#, fuzzy
+msgid "The selected language was not found."
+msgstr "The selected language was not found."
+
+#: application/modules/default/controllers/Projects.php:705
+msgid "The contributor was not found."
+msgstr "Contribuitorul nu a fost gasit."
+
+#: application/modules/default/controllers/Projects.php:715
+#, fuzzy
+msgid "This language is already added to the contributor."
+msgstr "This language is already added to the contributor."
+
+#: application/modules/default/controllers/Projects.php:726
+#, fuzzy
+msgid "The language was added to the contributor."
+msgstr "The language was added to the contributor."
+
+#: application/modules/default/controllers/Projects.php:757
+#, fuzzy
+msgid "The language was not found"
+msgstr "The language was not found"
+
+#: application/models/user/User.php:512
+#, fuzzy
+msgid "The contributor is already selected for this language"
+msgstr "The contributor is already selected for this language"
+
+#: application/modules/default/controllers/Projects.php:735
+msgid "The contributor does not exist."
+msgstr "Contribuitorul nu exista."
+
+#: application/modules/default/controllers/Projects.php:833
+#: application/modules/default/controllers/Projects.php:840
+#: application/modules/default/controllers/Projects.php:918
+msgid "The file was imported."
+msgstr "Fisierul a fost importat."
+
+#: application/modules/default/controllers/Projects.php:860
+#: application/modules/default/controllers/Projects.php:862
+#: application/modules/default/views/projects/import.php:9
+#: application/modules/default/views/projects/import.php:49
+#: application/modules/default/views/projects/po_edit.php:450
+msgid "Import file"
+msgstr "Importa fisier"
+
+#: application/modules/default/controllers/Projects.php:892
+#, fuzzy
+msgid "The notification was sent."
+msgstr "The notification was sent."
+
+#: application/modules/default/controllers/Projects.php:894
+#, fuzzy
+msgid "This language has no contributors."
+msgstr "This language has no contributors."
+
+#: application/modules/default/controllers/Projects.php:912
+#, fuzzy
+msgid "You can't import definitions because there are no terms yet."
+msgstr "You can't import definitions because there are no terms yet."
+
+#: application/modules/default/controllers/Projects.php:1007
+#, fuzzy
+msgid "Interactive editing"
+msgstr "Interactive editing"
+
+#: application/modules/default/controllers/Projects.php:1101
+#, fuzzy
+msgid "Error..."
+msgstr "Error..."
+
+#: application/modules/default/controllers/Projects.php:1155
+#, fuzzy
+msgid "View terms"
+msgstr "View terms"
+
+#: application/modules/default/controllers/Projects.php:1203
+#, fuzzy
+msgid "The selected definitions were deleted!"
+msgstr "The selected definitions were deleted!"
+
+#: application/modules/default/controllers/Projects.php:1249
+#, fuzzy
+msgid "You don't have the permission to do that!"
+msgstr "You don't have the permission to do that!"
+
+#: application/modules/default/controllers/Projects.php:1259
+#, fuzzy
+msgid "The selected terms and definitions were deleted!"
+msgstr "The selected terms and definitions were deleted!"
+
+#: application/modules/default/controllers/Projects.php:1348
+msgid "All definitions were deleted!"
+msgstr "Toate definitiile au fost sterse!"
+
+#: application/modules/default/controllers/Projects.php:1491
+#, fuzzy
+msgid "The language not found!"
+msgstr "The language not found!"
+
+#: application/modules/default/controllers/Projects.php:1509
+#, fuzzy
+msgid "The contributor was deleted!"
+msgstr "The contributor was deleted!"
+
+#: application/modules/default/controllers/Projects.php:1511
+#, fuzzy
+msgid "The contributor was not found!"
+msgstr "The contributor was not found!"
+
+#: application/modules/default/controllers/Register.php:9
+#: application/modules/default/controllers/Register.php:10
+#: application/modules/default/views/modules/header.php:58
+msgid "Register"
+msgstr "Inregistrare"
+
+#: application/modules/default/controllers/Register.php:32
+#, fuzzy
+msgid "An email with a confirmation link has been sent. Please follow that link."
+msgstr "An email with a confirmation link has been sent. Please follow that link."
+
+#: application/modules/default/views/account/change_password.php:4
+#, fuzzy
+msgid "Change your password"
+msgstr "Schimba parola"
+
+#: application/modules/default/views/account/change_password.php:9
+msgid "Your old password"
+msgstr "Parola veche"
+
+#: application/modules/default/views/account/change_password.php:17
+msgid "Your new password"
+msgstr "Parola noua"
+
+#: application/modules/default/views/account/change_password.php:25
+msgid "Confirm new password"
+msgstr "Confirma parola"
+
+#: application/modules/default/views/account/edit.php:4
+#: application/modules/default/views/account/index.php:12
+#, fuzzy
+msgid "Edit account"
+msgstr "Edit account"
+
+#: application/modules/default/views/account/edit.php:9
+#: application/modules/default/views/account/index.php:33
+#: application/modules/default/views/projects/index.php:127
+#: application/modules/default/views/projects/settings.php:24
+#: application/modules/default/views/projects/settings.php:242
+#: application/modules/default/views/projects/settings.php:243
+#: application/modules/default/views/projects/view.php:271
+#: application/modules/default/views/projects/view.php:272
+#: application/modules/default/views/register/index.php:17
+msgid "Name"
+msgstr "Nume"
+
+#: application/modules/default/views/account/edit.php:17
+#: application/modules/default/views/account/index.php:37
+msgid "Company"
+msgstr "Companie"
+
+#: application/modules/default/views/account/edit.php:25
+#: application/modules/default/views/account/index.php:41
+#, fuzzy
+msgid "Web Address"
+msgstr "Web Address"
+
+#: application/modules/default/views/account/edit.php:33
+#: application/modules/default/views/account/index.php:45
+#: application/modules/default/views/email/join_project_new.php:27
+#: application/modules/default/views/email/new_contributor.php:23
+#: application/modules/default/views/email/recover_password.php:6
+#: application/modules/default/views/index/index.php:95
+#: application/modules/default/views/projects/settings.php:251
+#: application/modules/default/views/projects/settings.php:252
+#: application/modules/default/views/projects/view.php:278
+#: application/modules/default/views/projects/view.php:279
+msgid "Email"
+msgstr "Email"
+
+#: application/modules/default/views/contributors/index.php:20
+#: application/modules/default/views/projects/view.php:56
+#, fuzzy
+msgid "Click to remove this user"
+msgstr "Click to remove this user"
+
+#: application/modules/default/views/contributors/index.php:20
+#, fuzzy
+msgid "Remove contributor"
+msgstr "Remove contributor"
+
+#: application/modules/default/views/contributors/index.php:103
+#, fuzzy
+msgid "No contributors."
+msgstr "No contributors."
+
+#: application/modules/default/views/projects/view.php:206
+msgid "Delete Language"
+msgstr "Sterge Limba"
+
+#: application/modules/default/views/contributors/index.php:121
+#: application/modules/default/views/projects/po_edit.php:361
+#: application/modules/default/views/projects/po_edit.php:397
+#: application/modules/default/views/projects/sync.php:85
+#: application/modules/default/views/projects/view.php:177
+#: application/modules/default/views/projects/view.php:208
+#: application/modules/default/views/projects/view.php:214
+#: application/modules/default/views/projects/view_terms.php:188
+msgid "Delete"
+msgstr "Sterge"
+
+#: application/modules/default/views/contributors/index.php:116
+#: application/modules/default/views/contributors/index.php:122
+#: application/modules/default/views/contributors/index.php:128
+#: application/modules/default/views/projects/po_edit.php:362
+#: application/modules/default/views/projects/po_edit.php:368
+#: application/modules/default/views/projects/po_edit.php:376
+#: application/modules/default/views/projects/po_edit.php:398
+#: application/modules/default/views/projects/settings.php:111
+#: application/modules/default/views/projects/sync.php:86
+#: application/modules/default/views/projects/view.php:178
+#: application/modules/default/views/projects/view.php:197
+#: application/modules/default/views/projects/view.php:209
+#: application/modules/default/views/projects/view.php:215
+#: application/modules/default/views/projects/view_terms.php:189
+msgid "Don't!"
+msgstr "Nu!"
+
+#: application/modules/default/views/contributors/index.php:119
+#: application/modules/default/views/projects/view.php:212
+msgid "Delete Contributor"
+msgstr "Sterge Contribuitor"
+
+#: application/modules/default/views/contributors/index.php:120
+#: application/modules/default/views/projects/view.php:213
+msgid "Are you sure you want to delete this contributor?"
+msgstr "Sigur vrei sa stergi acest contribuitor?"
+
+#: application/modules/default/views/email/activation.php:3
+msgid "Welcome!"
+msgstr "Bine ai venit!"
+
+#: application/modules/default/views/email/contributor.php:3
+#: application/modules/default/views/email/contributor_approved.php:2
+#: application/modules/default/views/email/join_project.php:3
+#: application/modules/default/views/email/join_project_new.php:3
+#: application/modules/default/views/email/new_contributor.php:3
+#: application/modules/default/views/email/new_contributor_joins_project.php:3
+#: application/modules/default/views/email/notification.php:3
+msgid "Hi"
+msgstr "Salut"
+
+#: application/modules/default/views/email/contributor.php:21
+#: application/modules/default/views/email/notification.php:23
+#, fuzzy
+msgid "Don't forget to activate your account by accessing the link bellow:"
+msgstr "Nu uita sa iti activezi contul accesand linkul de mai jos:"
+
+#: application/modules/default/views/email/contributor.php:28
+#: application/modules/default/views/email/contributor_approved.php:11
+#: application/modules/default/views/email/join_project.php:21
+#: application/modules/default/views/email/join_project_new.php:32
+#: application/modules/default/views/email/new_contributor.php:28
+#: application/modules/default/views/email/new_contributor_joins_project.php:23
+#: application/modules/default/views/email/notification.php:32
+msgid "Have a nice day!"
+msgstr "O zi buna!"
+
+#: application/modules/default/views/email/join_project_new.php:19
+#: application/modules/default/views/email/new_contributor.php:15
+#, fuzzy
+msgid "An account has been created for you."
+msgstr "An account has been created for you."
+
+#: application/modules/default/views/email/join_project_new.php:20
+#: application/modules/default/views/email/new_contributor.php:16
+#, fuzzy
+msgid "In order to activate your account, you need to follow the link bellow"
+msgstr "In order to activate your account, you need to follow the link bellow"
+
+#: application/modules/default/views/email/join_project_new.php:26
+#: application/modules/default/views/email/new_contributor.php:22
+#, fuzzy
+msgid "You can access your account by:"
+msgstr "You can access your account by:"
+
+#: application/modules/default/views/account/index.php:65
+#: application/modules/default/views/email/join_project_new.php:28
+#: application/modules/default/views/email/new_contributor.php:24
+#: application/modules/default/views/email/recover_password.php:7
+#: application/modules/default/views/index/index.php:97
+#: application/modules/default/views/login/index.php:21
+#: application/modules/default/views/register/index.php:31
+msgid "Password"
+msgstr "Parola"
+
+#: application/modules/default/views/email/inactive_notification.php:3
+#: application/modules/default/views/email/recover_password.php:3
+#: application/modules/default/views/email/remove_account.php:3
+#: application/modules/default/views/email/reset_password_link.php:3
+msgid "Hello"
+msgstr "Salut"
+
+#: application/modules/default/views/email/recover_password.php:5
+#, fuzzy
+msgid "These are your account credentials for"
+msgstr "These are your account credentials for"
+
+#: application/modules/default/views/email/modules/footer.php:4
+#, fuzzy
+msgid "Support email"
+msgstr "Support email"
+
+#: application/modules/default/views/error/acl.php:2
+msgid "Access denied"
+msgstr "Acces interzis"
+
+#: application/modules/default/views/error/acl.php:5
+#, fuzzy
+msgid "You don't have access to this resource"
+msgstr "You don't have access to this resource"
+
+#: application/modules/default/views/error/index.php:3
+msgid "404: Page not found"
+msgstr "404: Pagina nu a fost gasita"
+
+#: application/modules/default/views/index/index.php:92
+#, fuzzy
+msgid "Login to your account"
+msgstr "Login to your account"
+
+#: application/modules/default/views/index/index.php:101
+#: application/modules/default/views/login/index.php:27
+msgid "Remember me"
+msgstr "Tine-ma minte"
+
+#: application/modules/default/views/index/index.php:107
+msgid "Forgot your password ?"
+msgstr "Ai uitat parola ?"
+
+#: application/modules/default/views/index/index.php:89
+msgid "or"
+msgstr "sau"
+
+#: application/modules/default/views/index/index.php:88
+msgid "Create an account"
+msgstr "Creeaza cont nou"
+
+#: application/modules/default/views/login/index.php:8
+#, fuzzy
+msgid "Username or password incorrect."
+msgstr "Username or password incorrect."
+
+#: application/modules/default/views/login/index.php:24
+#: application/modules/default/views/login/recovery.php:3
+#, fuzzy
+msgid "Reset Your Password"
+msgstr "Reset Your Password"
+
+#: application/modules/default/views/login/index.php:35
+#, fuzzy
+msgid "Don't have an account?"
+msgstr "Don't have an account?"
+
+#: application/modules/default/views/login/index.php:35
+#, fuzzy
+msgid "Sign Up"
+msgstr "Sign Up"
+
+#: application/modules/default/views/login/index.php:35
+msgid "for free"
+msgstr "gratis"
+
+#: application/modules/default/views/login/recovery.php:4
+#, fuzzy
+msgid "Fill out the form below and we'll send you instructions."
+msgstr "Fill out the form below and we'll send you instructions."
+
+#: application/modules/default/views/login/recovery.php:14
+#: application/modules/default/views/register/index.php:24
+#, fuzzy
+msgid "Email Address"
+msgstr "Email Address"
+
+#: application/modules/default/views/login/recovery.php:21
+msgid "Or return to the"
+msgstr "Sau intoarce-te la"
+
+#: application/modules/default/views/login/recovery.php:21
+msgid "login page"
+msgstr "pagina de logare"
+
+#: application/modules/default/controllers/Projects.php:167
+#: application/modules/default/views/modules/header.php:21
+msgid "My projects"
+msgstr "Proiectele mele"
+
+#: application/modules/admin/views/projects/language.php:34
+#: application/modules/default/views/modules/header.php:26
+#: application/modules/default/views/projects/po_edit.php:67
+#: application/modules/default/views/projects/stats.php:98
+msgid "All"
+msgstr "Toate"
+
+#: application/modules/default/views/modules/header.php:48
+msgid "Logout"
+msgstr "Iesire"
+
+#: application/modules/default/views/projects/add.php:3
+#: application/modules/default/views/projects/po_edit.php:10
+msgid "Back to projects"
+msgstr "Inapoi la proiecte"
+
+#: application/modules/default/views/projects/add.php:8
+#: application/modules/default/views/projects/settings.php:125
+msgid "Project name"
+msgstr "Numele proiectului"
+
+#: application/modules/default/views/projects/add.php:9
+#: application/modules/default/views/projects/index.php:123
+msgid "Add project"
+msgstr "Adauga proiect"
+
+#: application/modules/default/views/account/index.php:7
+#: application/modules/default/views/projects/import.php:24
+#: application/modules/default/views/projects/po_edit.php:14
+#: application/modules/default/views/projects/view.php:9
+msgid "Options"
+msgstr "Optiuni"
+
+#: application/modules/default/views/projects/import.php:27
+#, fuzzy
+msgid "Import terms only"
+msgstr "Import terms only"
+
+#: application/modules/default/views/projects/import.php:30
+#, fuzzy
+msgid "Import terms and definitions in..."
+msgstr "Import terms and definitions in..."
+
+#: application/modules/default/views/projects/import.php:34
+#, fuzzy
+msgid "Select Language"
+msgstr "Select Language"
+
+#: application/modules/default/views/projects/import.php:41
+#: application/modules/default/views/projects/po_edit.php:451
+#, fuzzy
+msgid "overwrite old definitions"
+msgstr "overwrite old definitions"
+
+#: application/modules/default/views/projects/index.php:5
+#, fuzzy
+msgid "Projects owned by me"
+msgstr "Proiectele mele"
+
+#: application/modules/default/views/projects/index.php:34
+#, fuzzy
+msgid "You have no project, add a new project."
+msgstr "You have no project, add a new project."
+
+#: application/modules/default/views/projects/index.php:41
+#, fuzzy
+msgid "Projects shared with me"
+msgstr "Proiecte la care contribui"
+
+#: application/modules/default/views/projects/index.php:130
+#: application/modules/default/views/projects/view.php:122
+msgid "Add"
+msgstr "Adauga"
+
+#: application/modules/default/views/index/index.php:51
+#: application/modules/default/views/index/index.php:54
+msgid "Interactive"
+msgstr "Interactiv"
+
+#: application/modules/default/views/projects/interactive.php:203
+#: application/modules/default/views/projects/view_terms.php:68
+#: application/modules/default/views/projects/view_terms.php:74
+msgid "Reference"
+msgstr "Referinta"
+
+#: application/modules/default/views/projects/po_edit.php:25
+#, fuzzy
+msgid "Import definitions from file"
+msgstr "Import definitions from file"
+
+#: application/modules/default/views/projects/po_edit.php:30
+#: application/modules/default/views/projects/po_edit.php:364
+#, fuzzy
+msgid "Flush all definitions"
+msgstr "Flush all definitions"
+
+#: application/modules/default/views/projects/po_edit.php:33
+#, fuzzy
+msgid "Notify contributors"
+msgstr "Notify contributors"
+
+#: application/modules/admin/views/projects/language.php:44
+#: application/modules/default/views/projects/view_terms.php:25
+#: application/modules/default/views/projects/view_terms.php:118
+msgid "term(s) found"
+msgstr "termen(i) gasit(i)"
+
+#: application/modules/admin/views/projects/language.php:46
+#: application/modules/default/views/projects/po_edit.php:82
+#: application/modules/default/views/projects/view_terms.php:27
+#: application/modules/default/views/projects/view_terms.php:120
+msgid "Search"
+msgstr "Cauta"
+
+#: application/modules/admin/views/projects/language.php:73
+#: application/modules/default/views/projects/po_edit.php:113
+#, fuzzy
+msgid "Reference:"
+msgstr "Reference:"
+
+#: application/modules/default/views/projects/po_edit.php:238
+#: application/modules/default/views/projects/po_edit.php:481
+#: application/modules/default/views/projects/sync.php:21
+#: application/modules/default/views/projects/sync.php:101
+#: application/modules/default/views/projects/view_terms.php:85
+#: application/modules/default/views/projects/view_terms.php:204
+#, fuzzy
+msgid "Select All"
+msgstr "Select All"
+
+#: application/modules/default/views/projects/po_edit.php:240
+#, fuzzy
+msgid "Click to delete selected definitions"
+msgstr "Click to delete selected definitions"
+
+#: application/modules/default/views/projects/po_edit.php:240
+#: application/modules/default/views/projects/sync.php:24
+#: application/modules/default/views/projects/view_terms.php:86
+#, fuzzy
+msgid "Delete selected"
+msgstr "Delete selected"
+
+#: application/modules/admin/views/projects/language.php:112
+#: application/modules/default/views/projects/po_edit.php:259
+#: application/modules/default/views/projects/view_terms.php:96
+#, fuzzy
+msgid "Display"
+msgstr "Display"
+
+#: application/modules/admin/views/projects/language.php:128
+#, fuzzy
+msgid "No available terms for this project"
+msgstr "No available terms for this project"
+
+#: application/modules/default/views/auto_translate/language.php:255
+#: application/modules/default/views/projects/po_edit.php:294
+#: application/modules/default/views/projects/sync.php:54
+#: application/modules/default/views/projects/view_terms.php:157
+msgid "Error"
+msgstr "Eroare"
+
+#: application/modules/default/views/projects/po_edit.php:297
+#, fuzzy
+msgid "Please select at least a definition."
+msgstr "Please select at least a definition."
+
+#: application/modules/default/views/projects/po_edit.php:300
+#: application/modules/default/views/projects/sync.php:60
+#: application/modules/default/views/projects/view_terms.php:163
+msgid "Ok"
+msgstr "Ok"
+
+#: application/modules/default/views/projects/po_edit.php:359
+#, fuzzy
+msgid "Are you sure you want to delete this language ?"
+msgstr "Are you sure you want to delete this language ?"
+
+#: application/modules/default/views/projects/po_edit.php:365
+#, fuzzy
+msgid "Are you sure you want to delete all definitions from this language ?"
+msgstr "Are you sure you want to delete all definitions from this language ?"
+
+#: application/modules/default/views/projects/po_edit.php:367
+#: application/modules/default/views/projects/view.php:196
+#, fuzzy
+msgid "Flush"
+msgstr "Flush"
+
+#: application/modules/default/views/projects/po_edit.php:391
+msgid "Delete definitions"
+msgstr "Sterge definitii"
+
+#: application/modules/default/views/projects/po_edit.php:394
+#, fuzzy
+msgid "Are you sure you want to delete these definitions?"
+msgstr "Are you sure you want to delete these definitions?"
+
+#: application/modules/default/views/projects/po_edit.php:332
+#, fuzzy
+msgid "Notify contributors of"
+msgstr "Notify contributors of"
+
+#: application/modules/default/views/projects/po_edit.php:335
+#, fuzzy
+msgid "Every contributor of"
+msgstr "Every contributor of"
+
+#: application/modules/default/views/account/index.php:69
+#: application/modules/default/views/projects/po_edit.php:349
+msgid "Send"
+msgstr "Trimite"
+
+#: application/modules/admin/views/projects/language.php:167
+#: application/modules/default/views/account/index.php:70
+#: application/modules/default/views/auto_translate/language.php:158
+#: application/modules/default/views/projects/po_edit.php:350
+#: application/modules/default/views/projects/po_edit.php:432
+#: application/modules/default/views/projects/po_edit.php:462
+#: application/modules/default/views/projects/settings.php:181
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancel"
+
+#: application/modules/default/views/projects/po_edit.php:445
+#, fuzzy
+msgid "Import definitions to"
+msgstr "Import definitions to"
+
+#: application/modules/default/views/projects/po_edit.php:461
+msgid "Import"
+msgstr "Importa"
+
+#: application/modules/default/views/projects/po_edit.php:482
+#: application/modules/default/views/projects/sync.php:102
+#: application/modules/default/views/projects/view_terms.php:205
+#, fuzzy
+msgid "Select None"
+msgstr "Select None"
+
+#: application/modules/default/views/projects/stats.php:22
+#, fuzzy
+msgid "Terms Count"
+msgstr "Terms Count"
+
+#: application/modules/default/views/projects/stats.php:26
+#, fuzzy
+msgid "Terms Word Count"
+msgstr "Terms Word Count"
+
+#: application/modules/default/views/projects/stats.php:34
+#, fuzzy
+msgid "Definitions Count"
+msgstr "Definitions Count"
+
+#: application/modules/default/views/projects/stats.php:38
+#, fuzzy
+msgid "Definitions Word Count"
+msgstr "Definitions Word Count"
+
+#: application/modules/admin/controllers/Projects.php:141
+#: application/modules/default/controllers/Projects.php:9
+#: application/modules/default/controllers/Projects.php:1181
+#: application/modules/default/views/projects/stats.php:57
+#: application/modules/default/views/projects/stats.php:187
+#: application/modules/default/views/projects/stats.php:191
+#: application/modules/default/views/projects/view.php:37
+msgid "Translated"
+msgstr "Tradus"
+
+#: application/modules/default/views/projects/stats.php:60
+msgid "Contributor"
+msgstr "Contribuitor"
+
+#: application/modules/default/views/projects/stats.php:61
+msgid "Percentage"
+msgstr "Procent"
+
+#: application/modules/default/views/auto_translate/language.php:18
+#: application/modules/default/views/projects/stats.php:63
+msgid "Words"
+msgstr "Cuvinte"
+
+#: application/modules/default/views/projects/stats.php:69
+#, fuzzy
+msgid "Owner"
+msgstr "Owner"
+
+#: application/modules/default/views/projects/stats.php:188
+#: application/modules/default/views/projects/stats.php:191
+msgid "Not translated"
+msgstr "Netradus"
+
+#: application/modules/default/views/projects/view.php:18
+#: application/modules/default/views/projects/view.php:171
+msgid "Delete project"
+msgstr "Sterge proiect"
+
+#: application/modules/default/views/projects/view.php:35
+msgid "Available Languages"
+msgstr "Limbi disponibile"
+
+#: application/modules/default/views/projects/view.php:68
+#, fuzzy
+msgid "Click to add contributor"
+msgstr "Click to add contributor"
+
+#: application/modules/default/views/projects/view.php:70
+#, fuzzy
+msgid "Click to remove this language"
+msgstr "Click to remove this language"
+
+#: application/modules/default/views/projects/view.php:77
+#, fuzzy
+msgid "No language is added."
+msgstr "No language is added."
+
+#: application/modules/default/views/projects/view.php:83
+#, fuzzy
+msgid "Click to add language"
+msgstr "Click to add language"
+
+#: application/modules/default/views/projects/view.php:83
+#: application/modules/default/views/projects/view.php:101
+#, fuzzy
+msgid "Add language"
+msgstr "Add language"
+
+#: application/modules/default/views/projects/view.php:174
+msgid "Are you sure you want to delete this project?"
+msgstr "Sigur vrei sa stergi acest proiect?"
+
+#: application/modules/default/views/projects/view.php:190
+#, fuzzy
+msgid "Flush terms"
+msgstr "Flush terms"
+
+#: application/modules/default/views/projects/view.php:193
+#, fuzzy
+msgid "Are you sure you want to flush all terms and definitions?"
+msgstr "Are you sure you want to flush all terms and definitions?"
+
+#: application/modules/default/views/projects/view.php:207
+msgid "Are you sure you want to delete this language?"
+msgstr "Sigur vrei sa stergi aceasta limba?"
+
+#: application/modules/default/views/projects/view.php:106
+#: application/modules/default/views/projects/view.php:149
+#, fuzzy
+msgid "Language"
+msgstr "Language"
+
+#: application/modules/default/views/projects/view.php:225
+#, fuzzy
+msgid "Add contributors to"
+msgstr "Add contributors to"
+
+#: application/modules/default/views/projects/settings.php:207
+#: application/modules/default/views/projects/view.php:234
+#, fuzzy
+msgid "Select from existing"
+msgstr "Select from existing"
+
+#: application/modules/default/views/projects/settings.php:216
+#: application/modules/default/views/projects/view.php:108
+#: application/modules/default/views/projects/view.php:110
+#: application/modules/default/views/projects/view.php:243
+#, fuzzy
+msgid "Select"
+msgstr "Select"
+
+#: application/modules/default/views/projects/settings.php:234
+#: application/modules/default/views/projects/view.php:261
+#, fuzzy
+msgid "Add a new one"
+msgstr "Add a new one"
+
+#: application/modules/default/views/projects/po_edit.php:32
+#: application/modules/default/views/projects/view.php:292
+#, fuzzy
+msgid "Add contributor"
+msgstr "Add contributor"
+
+#: application/modules/default/views/projects/view_terms.php:87
+#: application/modules/default/views/projects/view_terms.php:127
+msgid "Click to add new term"
+msgstr "Click pentru adaugarea unui nou termen"
+
+#: application/modules/default/views/projects/view_terms.php:87
+#: application/modules/default/views/projects/view_terms.php:127
+msgid "Add term"
+msgstr "Add term"
+
+#: application/modules/default/views/projects/view_terms.php:136
+msgid "New term"
+msgstr "New term"
+
+#: application/modules/default/views/projects/translation_memory.php:45
+#: application/modules/default/views/projects/view_terms.php:140
+msgid "Term"
+msgstr "Term"
+
+#: application/modules/default/views/projects/sync.php:57
+#: application/modules/default/views/projects/view_terms.php:160
+msgid "Please select at least a term."
+msgstr "Please select at least a term."
+
+#: application/modules/default/views/projects/sync.php:75
+#: application/modules/default/views/projects/view_terms.php:178
+msgid "Delete terms"
+msgstr "Sterge termeni"
+
+#: application/modules/default/views/projects/sync.php:79
+#: application/modules/default/views/projects/view_terms.php:182
+msgid "Warning"
+msgstr "Atentie"
+
+#: application/modules/default/views/projects/sync.php:80
+#: application/modules/default/views/projects/view_terms.php:183
+msgid "This will remove all selected terms and all of their definitions."
+msgstr "This will remove all selected terms and all of their definitions."
+
+#: application/modules/default/views/projects/sync.php:82
+#: application/modules/default/views/projects/view_terms.php:185
+msgid "Are you sure you want to delete the selected terms and definitions?"
+msgstr "Are you sure you want to delete the selected terms and definitions?"
+
+#: application/modules/default/views/register/index.php:4
+msgid "Join POEditor for FREE!"
+msgstr "Join POEditor for FREE!"
+
+#: application/modules/default/views/register/index.php:37
+msgid "Confirm password"
+msgstr "Confirma parola"
+
+#: application/modules/default/views/register/index.php:40
+msgid "All fields required."
+msgstr "Toate campurile sunt obligatorii."
+
+#: application/modules/default/views/register/index.php:46
+msgid "Already registered"
+msgstr "Already registered"
+
+#: application/modules/default/views/register/index.php:46
+msgid "Login here"
+msgstr "Login here"
+
+#: application/models/Contact.php:14
+msgid "Email address is mandatory"
+msgstr "Email address is mandatory"
+
+#: application/models/Contact.php:16
+msgid "Email address is not valid"
+msgstr "Email address is not valid"
+
+#: application/models/Contact.php:20
+msgid "Name is mandatory"
+msgstr "Numele este obligatoriu"
+
+#: application/models/Contact.php:23
+msgid "Message is mandatory"
+msgstr "Mesajul este obligatoriu"
+
+#: application/models/user/User.php:268
+msgid "Account removal"
+msgstr "Stergerea contului"
+
+#: application/modules/default/controllers/Account.php:44
+msgid "The email was sent. Follow that link in order to remove your account."
+msgstr "The email was sent. Follow that link in order to remove your account."
+
+#: application/modules/default/controllers/Account.php:46
+msgid "There was an error while sending the email."
+msgstr "There was an error while sending the email."
+
+#: application/modules/default/controllers/Account.php:49
+msgid "Wrong password"
+msgstr "Parola este gresita"
+
+#: application/modules/default/controllers/Contact.php:12
+msgid "Your message has been sent successfully."
+msgstr "Your message has been sent successfully."
+
+#: application/modules/default/controllers/Contact.php:22
+#: application/modules/default/views/modules/footer.php:9
+msgid "Contact"
+msgstr "Contact"
+
+#: application/modules/default/controllers/Login.php:47
+#: application/modules/default/controllers/Login.php:68
+msgid "Your account is no longer active."
+msgstr "Your account is no longer active."
+
+#: application/modules/default/controllers/Projects.php:246
+msgid "Language was added!"
+msgstr "Language was added!"
+
+#: application/modules/default/controllers/Projects.php:285
+msgid "Language was modified!"
+msgstr "Language was modified!"
+
+#: application/modules/default/controllers/Projects.php:1125
+msgid "Sync"
+msgstr "Sync"
+
+#: application/modules/default/controllers/Register.php:49
+msgid "Your account was removed"
+msgstr "Your account was removed"
+
+#: application/modules/default/controllers/Register.php:51
+msgid "Wrong hash or email"
+msgstr "Wrong hash or email"
+
+#: application/modules/default/views/account/index.php:24
+#: application/modules/default/views/account/index.php:59
+msgid "Remove account"
+msgstr "Remove account"
+
+#: application/modules/default/controllers/Contact.php:20
+#: application/modules/default/views/contact/index.php:3
+msgid "Get in touch with us"
+msgstr "Get in touch with us"
+
+#: application/modules/default/views/contact/index.php:14
+msgid "Your Name"
+msgstr "Your Name"
+
+#: application/modules/default/views/contact/index.php:22
+msgid "Your Email"
+msgstr "Your Email"
+
+#: application/modules/default/views/contact/index.php:30
+msgid "Your Message"
+msgstr "Your Message"
+
+#: application/modules/default/views/contact/index.php:37
+msgid "Send message"
+msgstr "Send message"
+
+#: application/modules/default/views/email/remove_account.php:4
+msgid "In order to remove your account, you need to follow the link bellow:"
+msgstr "In order to remove your account, you need to follow the link bellow:"
+
+#: application/modules/default/views/error/index.php:10
+msgid "I'm so sorry!"
+msgstr "I'm so sorry!"
+
+#: application/modules/default/views/error/index.php:12
+msgid "I tried rreally really hard to find it, but it's just not here."
+msgstr "I tried rreally really hard to find it, but it's just not here."
+
+#: application/modules/default/views/index/index.php:18
+#: application/modules/default/views/index/index.php:21
+msgid "Unlimited projects"
+msgstr "Numar nelimitat de proiecte"
+
+#: application/modules/default/views/index/index.php:27
+#: application/modules/default/views/index/index.php:30
+msgid "Collaborative"
+msgstr "Collaborative"
+
+#: application/modules/default/views/index/index.php:59
+#: application/modules/default/views/index/index.php:62
+msgid "Powerful"
+msgstr "Powerful"
+
+#: application/modules/default/views/index/index.php:67
+#: application/modules/default/views/index/index.php:70
+msgid "Fast"
+msgstr "Fast"
+
+#: application/modules/default/views/index/index.php:75
+#: application/modules/default/views/index/index.php:78
+msgid "Insightful statistics"
+msgstr "Insightful statistics"
+
+#: application/modules/default/views/auto_translate/language.php:22
+#: application/modules/default/views/projects/import.php:4
+#: application/modules/default/views/projects/po_edit.php:8
+#: application/modules/default/views/projects/sync.php:4
+#: application/modules/default/views/projects/view_terms.php:7
+msgid "Back to"
+msgstr "Back to"
+
+#: application/modules/default/views/projects/sync.php:3
+msgid "Obsolete terms"
+msgstr "Obsolete terms"
+
+#: application/modules/default/views/projects/sync.php:9
+msgid "The following terms were not found in the new uploaded file."
+msgstr "The following terms were not found in the new uploaded file."
+
+#: application/modules/default/views/projects/sync.php:10
+msgid "If you want to remove them, just select all terms and click Delete Selected."
+msgstr "If you want to remove them, just select all terms and click Delete Selected."
+
+#: application/modules/default/views/projects/sync.php:44
+msgid "Top"
+msgstr "Top"
+
+#: application/modules/default/views/terms/index.php:14
+msgid "Terms of Service"
+msgstr "Terms of Service"
+
+#: application/modules/default/views/terms/index.php:20
+msgid "PO Editor Terms of Service"
+msgstr "PO Editor Terms of Service"
+
+#: application/modules/default/views/terms/index.php:25
+msgid "Accepting the terms"
+msgstr "Accepting the terms"
+
+#: application/modules/default/views/terms/index.php:27
+msgid "In order to use the Service, you must agree to the Terms."
+msgstr "In order to use the Service, you must agree to the Terms."
+
+#: application/modules/default/views/terms/index.php:32
+msgid "Availability of Services"
+msgstr "Availability of Services"
+
+#: application/modules/default/views/terms/index.php:37
+msgid "User's account, password and security"
+msgstr "User's account, password and security"
+
+#: application/modules/default/views/terms/index.php:47
+msgid "Privacy and your personal information"
+msgstr "Privacy and your personal information"
+
+#: application/modules/default/views/terms/index.php:49
+msgid "You own your data"
+msgstr "You own your data"
+
+#: application/modules/default/views/terms/index.php:51
+msgid "You control who has acces to your data"
+msgstr "You control who has acces to your data"
+
+#: application/modules/default/views/terms/index.php:53
+msgid "PO Editor monitors system usage"
+msgstr "PO Editor monitors system usage"
+
+#: application/modules/default/views/terms/index.php:55
+msgid "Your browser stores no information that will identify You or your Individual"
+msgstr "Your browser stores no information that will identify You or your Individual"
+
+#: application/modules/default/views/terms/index.php:58
+msgid "Property rights"
+msgstr "Property rights"
+
+#: application/modules/default/views/terms/index.php:63
+msgid "Term and termination"
+msgstr "Term and termination"
+
+#: application/modules/default/views/terms/index.php:69
+msgid "DATA SOLUTIONS may terminate, at any time, its legal agreement with you if"
+msgstr "DATA SOLUTIONS may terminate, at any time, its legal agreement with you if"
+
+#: application/modules/default/views/terms/index.php:78
+msgid "Warranties"
+msgstr "Garantii"
+
+#: application/modules/default/views/terms/index.php:80
+msgid "The Services are provided \"as is\" and DATA SOLUTIONS gives you no warranty."
+msgstr "The Services are provided \"as is\" and DATA SOLUTIONS gives you no warranty."
+
+#: application/modules/default/views/terms/index.php:83
+msgid "Modification"
+msgstr "Modification"
+
+#: application/modules/default/controllers/Contributors.php:26
+msgid "Contributor was deleted!"
+msgstr "Contribuitorul a fost sters!"
+
+#: application/modules/default/controllers/Projects.php:1328
+msgid "All terms were copied to the empty definitions."
+msgstr "All terms were copied to the empty definitions."
+
+#: application/modules/default/views/projects/po_edit.php:24
+#: application/modules/default/views/projects/po_edit.php:371
+msgid "Copy terms to definitions"
+msgstr "Copy terms to definitions"
+
+#: application/models/user/User.php:196 application/models/user/User.php:214
+msgid "Your account credentials on POEditor.com"
+msgstr "Your account credentials on POEditor.com"
+
+#: application/models/user/User.php:541 application/models/user/User.php:562
+#: application/models/user/User.php:578
+msgid "Name is mandatory!"
+msgstr "Name is mandatory!"
+
+#: application/models/user/User.php:544 application/models/user/User.php:565
+#: application/models/user/User.php:581
+msgid "The email is not valid!"
+msgstr "The email is not valid!"
+
+#: application/modules/default/views/modules/header.php:38
+msgid "My Projects"
+msgstr "Proiectele mele"
+
+#: application/modules/default/views/projects/po_edit.php:29
+#: application/modules/default/views/projects/po_edit.php:358
+msgid "Delete language"
+msgstr "Delete language"
+
+#: application/modules/default/views/projects/stats.php:215
+msgid "terms"
+msgstr "terms"
+
+#: application/modules/default/views/register/index.php:4
+msgid "Create an Account"
+msgstr "Create an Account"
+
+#: application/models/projects/Project.php:558
+msgid "Please select at least a language."
+msgstr "Please select at least a language."
+
+#: application/modules/default/controllers/Join.php:31
+msgid "You've chosen to join project"
+msgstr "You've chosen to join project"
+
+#: application/modules/default/controllers/Join.php:8
+#: application/modules/default/views/join/project.php:95
+msgid "Join"
+msgstr "Join"
+
+#: application/modules/default/controllers/Join.php:33
+#: application/modules/default/controllers/Join.php:41
+msgid "This is your project. You don't need to join it."
+msgstr "This is your project. You don't need to join it."
+
+#: application/modules/default/controllers/Projects.php:197
+msgid "Please add at least one language in order make de the project public."
+msgstr "Please add at least one language in order make de the project public."
+
+#: application/modules/default/controllers/Projects.php:208
+msgid "The data was saved."
+msgstr "The data was saved."
+
+#: application/modules/default/controllers/Projects.php:1363
+#: application/modules/default/views/projects/settings.php:17
+#: application/modules/default/views/projects/settings.php:118
+#: application/modules/default/views/projects/view.php:15
+msgid "Settings"
+msgstr "Settings"
+
+#: application/modules/default/controllers/Join.php:93
+#: application/modules/default/views/join/project.php:24
+msgid "Join project"
+msgstr "Join project"
+
+#: application/modules/default/views/join/project.php:30
+msgid "Please select the language versions you are interested in."
+msgstr "Please select the language versions you are interested in."
+
+#: application/modules/default/views/join/project.php:35
+#: application/modules/default/views/projects/load_languages.php:8
+#: application/modules/default/views/projects/po_edit.php:314
+msgid "Available languages"
+msgstr "Available languages"
+
+#: application/modules/default/views/join/project.php:61
+msgid "No languages available"
+msgstr "No languages available"
+
+#: application/modules/default/views/join/project.php:72
+msgid "Your email"
+msgstr "Your email"
+
+#: application/modules/default/views/join/project.php:82
+msgid "Your name"
+msgstr "Your name"
+
+#: application/modules/default/controllers/Join.php:12
+#: application/modules/default/views/join/thank_you.php:18
+msgid "Thank you for joining!"
+msgstr "Thank you for joining!"
+
+#: application/modules/default/views/projects/index.php:13
+#: application/modules/default/views/projects/index.php:52
+msgid "Project Name"
+msgstr "Project Name"
+
+#: application/modules/default/views/email/new_contributor_joins_project.php:7
+#: application/modules/default/views/projects/index.php:14
+#: application/modules/default/views/projects/index.php:53
+msgid "Languages"
+msgstr "Languages"
+
+#: application/modules/default/views/projects/interactive.php:222
+#: application/modules/default/views/projects/po_edit.php:127
+#: application/modules/default/views/projects/translation_memory.php:66
+#: application/modules/default/views/projects/view_terms.php:62
+#: application/modules/default/views/projects/view_terms.php:75
+msgid "Context"
+msgstr "Context"
+
+#: application/modules/admin/views/projects/language.php:76
+msgid "Context:"
+msgstr "Context:"
+
+#: application/modules/default/views/projects/interactive.php:209
+#: application/modules/default/views/projects/po_edit.php:121
+#: application/modules/default/views/projects/view_terms.php:57
+msgid "Plural"
+msgstr "Plural"
+
+#: application/modules/default/views/account/edit.php:45
+#: application/modules/default/views/account/index.php:50
+#: application/modules/default/views/projects/settings.php:29
+#: application/modules/default/views/projects/settings.php:38
+#: application/modules/default/views/projects/settings.php:48
+#: application/modules/default/views/projects/settings.php:139
+#: application/modules/default/views/projects/settings.php:150
+#: application/modules/default/views/projects/settings.php:172
+msgid "Yes"
+msgstr "Yes"
+
+#: application/modules/default/views/account/index.php:50
+#: application/modules/default/views/projects/settings.php:29
+#: application/modules/default/views/projects/settings.php:38
+#: application/modules/default/views/projects/settings.php:48
+#: application/modules/default/views/projects/settings.php:138
+#: application/modules/default/views/projects/settings.php:149
+#: application/modules/default/views/projects/settings.php:171
+msgid "No"
+msgstr "No"
+
+#: application/modules/default/views/projects/settings.php:33
+msgid "Project link"
+msgstr "Project link"
+
+#: application/modules/default/views/projects/view_terms.php:74
+#: application/modules/default/views/projects/view_terms.php:75
+msgid "Show / Hide"
+msgstr "Show / Hide"
+
+#: application/modules/default/controllers/Join.php:43
+msgid "A notification has been sent to this email. The project will appear on your shared projects list."
+msgstr "A notification has been sent to this email. The project will appear on your shared projects list."
+
+#: application/modules/default/controllers/Join.php:56
+msgid "An email containing an activation link has been sent to the specified address. After activation, the project will appear on your shared projects list."
+msgstr "An email containing an activation link has been sent to the specified address. After activation, the project will appear on your shared projects list."
+
+#: application/modules/default/controllers/Projects.php:734
+msgid "This contributor has already an account in our system and was added with the name:"
+msgstr "This contributor has already an account in our system and was added with the name:"
+
+#: application/modules/default/views/account/index.php:63
+msgid "Once you type in your password, you will receive on your email a link that will remove your account."
+msgstr "Once you type in your password, you will receive on your email a link that will remove your account."
+
+#: application/modules/default/views/email/reset_password_link.php:5
+msgid "In order to change your password credentials, please follow this link:"
+msgstr "In order to change your password credentials, please follow this link:"
+
+#: application/modules/default/views/email/reset_password_link.php:10
+msgid "After accessing this, you will receive on your email a new password you can use to login."
+msgstr "After accessing this, you will receive on your email a new password you can use to login."
+
+#: application/modules/default/views/join/project.php:28
+msgid "This project needs collaborators.  If you are willing to give a helping hand, you can self enroll to a language of choice."
+msgstr "This project needs collaborators.  If you are willing to give a helping hand, you can self enroll to a language of choice."
+
+#: application/modules/default/views/terms/index.php:29
+msgid "You can accept the terms by clicking to accept or to agree to the Terms, where this option is made available to you by DATA SOLUTIONS in the user interface for the Service. If no such option is available you agree to the Terms by actually using the Services. In this case, you understand and agree that DATA SOLUTIONS will treat your use of the Services as acceptance of the Terms from that point onwards."
+msgstr "You can accept the terms by clicking to accept or to agree to the Terms, where this option is made available to you by DATA SOLUTIONS in the user interface for the Service. If no such option is available you agree to the Terms by actually using the Services. In this case, you understand and agree that DATA SOLUTIONS will treat your use of the Services as acceptance of the Terms from that point onwards."
+
+#: application/modules/default/views/terms/index.php:34
+msgid "DATA SOLUTIONS reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof). You agree that DATA SOLUTIONS shall not be liable to you or to any third party for any modifications, suspension or discontinuance of the Service."
+msgstr "DATA SOLUTIONS reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, the Service (or any part thereof). You agree that DATA SOLUTIONS shall not be liable to you or to any third party for any modifications, suspension or discontinuance of the Service."
+
+#: application/modules/default/views/terms/index.php:39
+msgid "By using the Services, you represent and warrant that all registration information is truthful and accurate and you agree to maintain the accuracy of such information."
+msgstr "By using the Services, you represent and warrant that all registration information is truthful and accurate and you agree to maintain the accuracy of such information."
+
+#: application/modules/default/views/terms/index.php:41
+msgid "You agree and understand that you are responsible for maintaining the confidentiality of passwords associated with any account you use to access the Services."
+msgstr "You agree and understand that you are responsible for maintaining the confidentiality of passwords associated with any account you use to access the Services."
+
+#: application/modules/default/views/terms/index.php:43
+msgid "Accordingly, you agree that you will be solely responsible for all activities that occur under your account."
+msgstr "Accordingly, you agree that you will be solely responsible for all activities that occur under your account."
+
+#: application/modules/default/views/terms/index.php:60
+msgid "The Service and all applicable programming code, trademarks, service marks, logos, domain names and other distinctive brand features used in connection with the Service contain proprietary and confidential information of DATA SOLUTIONS that is protected by European Union law and international treaties."
+msgstr "The Service and all applicable programming code, trademarks, service marks, logos, domain names and other distinctive brand features used in connection with the Service contain proprietary and confidential information of DATA SOLUTIONS that is protected by European Union law and international treaties."
+
+#: application/modules/default/views/terms/index.php:65
+msgid "The Terms start to apply on the date of acceptance by you of the Terms and continue until terminated by DATA SOLUTIONS or you in accordance with the following terms."
+msgstr "The Terms start to apply on the date of acceptance by you of the Terms and continue until terminated by DATA SOLUTIONS or you in accordance with the following terms."
+
+#: application/modules/default/views/terms/index.php:67
+msgid "If you want to terminate your legal agreement with DATA SOLUTIONS, you may do this by deleting your accounts for the Service."
+msgstr "If you want to terminate your legal agreement with DATA SOLUTIONS, you may do this by deleting your accounts for the Service."
+
+#: application/modules/default/views/terms/index.php:72
+msgid "You have breached any provision of the Terms (or have acted in manner which clearly shows that you do not intend to, or are unable to comply with the provisions of the Terms); or"
+msgstr "You have breached any provision of the Terms (or have acted in manner which clearly shows that you do not intend to, or are unable to comply with the provisions of the Terms); or"
+
+#: application/modules/default/views/terms/index.php:74
+msgid "DATA SOLUTIONS are required to do so by law (for example, where the provision of the Service to you is, or becomes, unlawful)"
+msgstr "DATA SOLUTIONS are required to do so by law (for example, where the provision of the Service to you is, or becomes, unlawful)"
+
+#: application/modules/default/views/terms/index.php:85
+msgid "DATA SOLUTIONS reserves the right to change the Terms from time to time in its sole discretion without any notifications regarding this matter."
+msgstr "DATA SOLUTIONS reserves the right to change the Terms from time to time in its sole discretion without any notifications regarding this matter."
+
+#: application/modules/admin/controllers/Projects.php:124
+#: application/modules/default/controllers/Projects.php:14
+#: application/modules/default/controllers/Projects.php:1167
+msgid "Updated ASC"
+msgstr "Modificate ASC"
+
+#: application/modules/admin/controllers/Projects.php:125
+#: application/modules/default/controllers/Projects.php:15
+#: application/modules/default/controllers/Projects.php:1168
+msgid "Updated DESC"
+msgstr "Modificate DESC"
+
+#: application/modules/admin/controllers/Projects.php:126
+#: application/modules/default/controllers/Projects.php:16
+#: application/modules/default/controllers/Projects.php:1169
+msgid "Untranslated First"
+msgstr "Netraduse primele"
+
+#: application/modules/admin/controllers/Projects.php:127
+#: application/modules/default/controllers/Projects.php:17
+#: application/modules/default/controllers/Projects.php:1170
+msgid "Automatic First"
+msgstr "Primul automat"
+
+#: application/modules/admin/controllers/Projects.php:128
+#: application/modules/default/controllers/Projects.php:18
+#: application/modules/default/controllers/Projects.php:1171
+msgid "Fuzzy First"
+msgstr "Fuzzy Prima"
+
+#: application/modules/admin/controllers/Projects.php:140
+#: application/modules/default/controllers/Projects.php:8
+#: application/modules/default/controllers/Projects.php:1180
+msgid "Untranslated"
+msgstr "Netraduse"
+
+#: application/modules/admin/controllers/Projects.php:142
+#: application/modules/default/controllers/Projects.php:10
+#: application/modules/default/controllers/Projects.php:1182
+msgid "Automatic"
+msgstr "Automat"
+
+#: application/modules/admin/controllers/Projects.php:142
+#: application/modules/default/controllers/Projects.php:10
+#: application/modules/default/controllers/Projects.php:1182
+msgid "Not Automatic"
+msgstr "Nu este automată"
+
+#: application/modules/admin/controllers/Projects.php:143
+#: application/modules/default/controllers/Projects.php:11
+#: application/modules/default/controllers/Projects.php:1183
+msgid "Fuzzy"
+msgstr "Nesigure"
+
+#: application/modules/admin/controllers/Projects.php:143
+#: application/modules/default/controllers/Projects.php:11
+#: application/modules/default/controllers/Projects.php:1183
+msgid "Not Fuzzy"
+msgstr "Sigure"
+
+#: application/modules/admin/views/projects/language.php:28
+#: application/modules/default/views/projects/po_edit.php:61
+msgid "Order"
+msgstr "Ordonare"
+
+#: application/modules/admin/views/projects/language.php:29
+#: application/modules/default/views/projects/po_edit.php:62
+msgid "Original"
+msgstr "Originala"
+
+#: application/modules/admin/views/projects/language.php:32
+#: application/modules/default/views/projects/po_edit.php:65
+msgid "Show"
+msgstr "Arata"
+
+#: application/modules/admin/views/projects/language.php:79
+#: application/modules/default/views/projects/po_edit.php:115
+#: application/modules/default/views/projects/po_edit.php:121
+msgid "Length:"
+msgstr "Lungime:"
+
+#: application/modules/admin/views/projects/language.php:87
+#: application/modules/default/views/projects/po_edit.php:21
+#: application/modules/default/views/projects/po_edit.php:228
+#: application/modules/default/views/projects/settings.php:41
+#: application/modules/default/views/projects/settings.php:156
+msgid "Automatic translation"
+msgstr "Traducere automata"
+
+#: application/modules/admin/views/projects/language.php:128
+#: application/modules/default/views/projects/po_edit.php:275
+msgid "No matching results."
+msgstr "Nu sunt rezultate."
+
+#: application/modules/admin/views/projects/language.php:153
+#: application/modules/default/views/projects/po_edit.php:412
+msgid "Export terms and definitions"
+msgstr "Exporta termeni si definitii"
+
+#: application/modules/admin/views/projects/language.php:156
+#: application/modules/default/views/projects/po_edit.php:415
+msgid "Select type"
+msgstr "Alege tip"
+
+#: application/modules/admin/views/projects/language.php:158
+#: application/modules/default/views/projects/po_edit.php:417
+msgid "Po"
+msgstr "Po"
+
+#: application/modules/admin/views/projects/language.php:159
+#: application/modules/default/views/projects/po_edit.php:418
+msgid "Mo"
+msgstr "Mo"
+
+#: application/modules/admin/views/projects/language.php:160
+#: application/modules/default/views/projects/po_edit.php:425
+msgid "Excel"
+msgstr "Excel"
+
+#: application/modules/admin/views/projects/language.php:161
+#: application/modules/default/views/projects/po_edit.php:423
+msgid "PHP Array"
+msgstr "Array php"
+
+#: application/modules/admin/views/projects/language.php:162
+#: application/modules/default/views/projects/po_edit.php:427
+msgid "Json"
+msgstr "JSON"
+
+#: application/modules/admin/views/projects/language.php:166
+#: application/modules/default/views/projects/po_edit.php:18
+#: application/modules/default/views/projects/po_edit.php:431
+msgid "Export"
+msgstr "Exporta"
+
+#: application/modules/default/controllers/AutoTranslate.php:38
+msgid "Auto Translate"
+msgstr "Traduceri automate"
+
+#: application/modules/default/controllers/AutoTranslate.php:51
+msgid "Invalid data."
+msgstr "Date incorecte."
+
+#: application/modules/default/controllers/AutoTranslate.php:62
+msgid "Select the language of terms."
+msgstr "Selectați limba de termeni."
+
+#: application/modules/default/controllers/AutoTranslate.php:70
+msgid "Select the language of translation."
+msgstr "Selectați limba de traducere."
+
+#: application/modules/default/controllers/AutoTranslate.php:76
+msgid "Select two different languages."
+msgstr "Selecteaza doua limbi diferite."
+
+#: application/modules/default/controllers/AutoTranslate.php:85
+msgid "The language was not found."
+msgstr "Limba nu a fost gasita."
+
+#: application/modules/default/controllers/AutoTranslate.php:108
+msgid "Select one translator."
+msgstr "Selectați un traducător."
+
+#: application/modules/default/controllers/AutoTranslate.php:115
+msgid "The selected languages are not available."
+msgstr "Limba selectata nu e disponibila."
+
+#: application/modules/default/controllers/AutoTranslate.php:122
+msgid "You don't have enough points for this translation."
+msgstr "Nu ai suficiente puncte pentru aceasta traducere."
+
+#: application/modules/default/controllers/AutoTranslate.php:131
+#: application/modules/default/views/auto_translate/language.php:36
+msgid "No untranslated terms found."
+msgstr "Nu au fost gasiti termeni netradusi."
+
+#: application/modules/default/controllers/Contributors.php:9
+msgid "Your contributors"
+msgstr "Contribuitorii tai"
+
+#: application/modules/default/controllers/Projects.php:1010
+msgid "Interactive Translation"
+msgstr "Traducere interactive"
+
+#: application/modules/default/controllers/Projects.php:1234
+#: application/modules/default/views/auto_translate/language.php:119
+#: application/modules/default/views/auto_translate/language.php:157
+msgid "Translate"
+msgstr "Tradu"
+
+#: application/modules/default/controllers/Projects.php:1366
+msgid "Project settings"
+msgstr "Setarile proiectului"
+
+#: application/modules/default/controllers/Terms.php:14
+msgid "Terms &amp; Conditions"
+msgstr "Termeni si Conditii"
+
+#: application/modules/default/views/auto_translate/language.php:17
+msgid "Untranslated terms"
+msgstr "Termeni netradusi"
+
+#: application/modules/default/views/auto_translate/language.php:19
+msgid "Chars"
+msgstr "Caractere"
+
+#: application/modules/default/views/auto_translate/language.php:27
+#: application/modules/default/views/auto_translate/language.php:43
+#: application/modules/default/views/auto_translate/language.php:65
+msgid "Info"
+msgstr "Info"
+
+#: application/modules/default/views/auto_translate/language.php:28
+#: application/modules/default/views/auto_translate/language.php:44
+#: application/modules/default/views/auto_translate/language.php:67
+msgid "Your account is limited to %d characters."
+msgstr "Contul tau este limitat la %d caractere."
+
+#: application/modules/default/views/auto_translate/language.php:30
+#: application/modules/default/views/auto_translate/language.php:46
+#: application/modules/default/views/auto_translate/language.php:69
+msgid "you've already used %d"
+msgstr "ai folosit deja %d"
+
+#: application/modules/default/views/auto_translate/language.php:49
+#: application/modules/default/views/auto_translate/language.php:72
+msgid "The amount of untranslated terms make up for <b>%d</b> characters."
+msgstr "The amount of untranslated terms make up for <b>%d</b> characters. "
+
+#: application/modules/default/views/auto_translate/language.php:53
+msgid "Not enough credit for this translation. Contact us for more."
+msgstr "Isuficient credit pentru aceasta traducere. Contacteaza-ne pentru mai mult."
+
+#: application/modules/default/views/auto_translate/language.php:66
+msgid "Only terms with no definitions in this language will be translated."
+msgstr "Vor fi tradusi doar termenii fara definitii in aceasta limba."
+
+#: application/modules/default/views/auto_translate/language.php:81
+msgid "Use"
+msgstr "Foloseste"
+
+#: application/modules/default/views/auto_translate/language.php:100
+msgid "Translate from"
+msgstr "Tradu din"
+
+#: application/modules/default/views/auto_translate/language.php:104
+#: application/modules/default/views/auto_translate/language.php:114
+#: application/modules/default/views/auto_translate/language.php:180
+msgid "Select language"
+msgstr "Alege limba"
+
+#: application/modules/default/views/auto_translate/language.php:110
+msgid "Translate to"
+msgstr "Tradu in"
+
+#: application/modules/default/views/auto_translate/language.php:128
+msgid "Translating..."
+msgstr "Traducem..."
+
+#: application/modules/default/views/auto_translate/language.php:134
+msgid "Working on it"
+msgstr "De lucru pe ea"
+
+#: application/modules/default/views/auto_translate/language.php:137
+msgid "View translation"
+msgstr "Vezi traducerea"
+
+#: application/modules/default/views/auto_translate/language.php:138
+msgid "Close"
+msgstr "Inchide"
+
+#: application/modules/default/views/auto_translate/language.php:145
+msgid "Confirmation"
+msgstr "Confirmare"
+
+#: application/modules/default/views/auto_translate/language.php:148
+msgid "Please confirm:"
+msgstr "Te rugam sa confirmi:"
+
+#: application/modules/default/views/auto_translate/language.php:150
+msgid "Translation from"
+msgstr "Traducere din"
+
+#: application/modules/default/views/auto_translate/language.php:150
+#: application/modules/default/views/auto_translate/language.php:231
+#: application/modules/default/views/projects/stats.php:146
+msgid "to"
+msgstr "in"
+
+#: application/modules/default/views/auto_translate/language.php:150
+#: application/modules/default/views/auto_translate/language.php:231
+msgid "using"
+msgstr "folosind"
+
+#: application/modules/default/views/auto_translate/language.php:151
+msgid "Number of terms"
+msgstr "Numar de termeni"
+
+#: application/modules/default/views/auto_translate/language.php:152
+msgid "Credits"
+msgstr "Credite"
+
+#: application/modules/default/views/auto_translate/language.php:152
+msgid "will be removed from your account"
+msgstr "vor fi eliminate din contul dvs."
+
+#: application/modules/default/views/auto_translate/language.php:154
+msgid "Are you sure you want to translate this?"
+msgstr "Sigur vrei sa traduci asta?"
+
+#: application/modules/default/views/auto_translate/language.php:229
+#: application/modules/default/views/projects/translation_memory.php:64
+msgid "Translating"
+msgstr "Traducere"
+
+#: application/modules/default/views/auto_translate/language.php:231
+msgid "Translating from"
+msgstr "Traducerea din"
+
+#: application/modules/default/views/auto_translate/language.php:262
+msgid "Translation result"
+msgstr "Traducere rezultat"
+
+#: application/modules/default/views/auto_translate/language.php:263
+msgid "Execution time"
+msgstr "Timp de execuție"
+
+#: application/modules/default/views/auto_translate/language.php:263
+msgid "Translated terms"
+msgstr "Termeni tradusi"
+
+#: application/modules/default/views/auto_translate/language.php:263
+msgid "Total characters"
+msgstr "Numar de caractere"
+
+#: application/modules/default/views/auto_translate/language.php:263
+msgid "Credit left"
+msgstr "Credit ramas"
+
+#: application/modules/default/views/email/activation.php:4
+msgid "In order to activate your account, you need to follow the link below:"
+msgstr "În scopul de a activa contul dvs., trebuie să urmați link-ul de mai jos:"
+
+#: application/modules/default/views/index/index.php:4
+msgid "A simple way to translate<br/>your software"
+msgstr "Un mod simplu de a traduce <br/> software-ul dvs."
+
+#: application/modules/default/views/index/index.php:5
+msgid "POEditor is a free, web-based software localization tool that can be used by anyone who creates an account. It does not require any software download so you can access it from any computer, wherever there is an Internet connection and a browser."
+msgstr "POEditor este un program gratuit, web-based localizare instrument software care poate fi folosit de oricine, care creează un cont. Ea nu are nevoie de nici Descărcare de software, astfel încât să puteți accesa de pe orice calculator, oriunde există o conexiune la Internet și un browser."
+
+#: application/modules/default/views/index/index.php:35
+#: application/modules/default/views/index/index.php:38
+msgid "Multiple writing system support"
+msgstr "Multiplu scris sistem de sprijin"
+
+#: application/modules/default/views/index/index.php:43
+#: application/modules/default/views/index/index.php:46
+msgid "Right to left support"
+msgstr "Dreptul la asistență stânga"
+
+#: application/modules/default/views/index/index.php:118
+msgid "Unlimited projects, languages and terms"
+msgstr "Proiecte nelimitate, limbi și termeni"
+
+#: application/modules/default/views/index/index.php:120
+msgid "Because we believe in globalization, we've set no limits to the number of projects, languages and terms you can use for your translation process."
+msgstr "Pentru că noi credem în globalizării, ne-am stabilit nici o limită la numărul de proiecte, limbi și termenii care le puteți utiliza pentru procesul de traducere dumneavoastră."
+
+#: application/modules/default/views/index/index.php:130
+msgid "After localization, choose which file type you wish to receive from the multiple formats we export in."
+msgstr "După localizare, pentru a alege tipul de fișier pe care doriți să primiți de la mai multe formate am de export inch"
+
+#: application/modules/default/views/index/index.php:174
+msgid "Autodetect text orientation"
+msgstr "Autodetectie textul orientare"
+
+#: application/modules/default/views/index/index.php:176
+msgid "Our sytem automatically detects if your language system uses LTR or RTL text direction."
+msgstr "Sytem nostru detectează automat dacă sistemul dvs. utilizează limba directia textului LTR sau RTL."
+
+#: application/modules/default/views/index/index.php:133
+msgid "Add contributors"
+msgstr "Adauga contribuitori"
+
+#: application/modules/default/views/index/index.php:135
+msgid "Use the add contributors button to send invitations via email to people who can contribute to your projects on specific languages."
+msgstr "Utilizați butonul de add contribuitori pentru a trimite invitații prin e-mail la persoane care pot contribui la proiectele dvs. pe anumite limbi."
+
+#: application/modules/default/views/index/index.php:157
+msgid "Support for fuzzy translations"
+msgstr "Suport pentru traduceri neclare"
+
+#: application/modules/default/views/index/index.php:159
+msgid "Not sure of a certain translation? Just hit the 'F' button right next to your definition to mark it for yourself or other contributors."
+msgstr "Nu este sigur de o traducere anumit? A lovit doar \"F\" butonul din dreapta de lângă definiția ta pentru a marca pentru tine sau alți contribuitori."
+
+#: application/modules/default/views/index/index.php:162
+msgid "Support for context and reference"
+msgstr "Suport pentru contextul și referință"
+
+#: application/modules/default/views/index/index.php:164
+msgid "See references, contexts and length of your strings with a simple mouse over each of your terms."
+msgstr "Vezi referințe, contexte și lungimea de șiruri de dvs. cu un simplu mouse-ul peste fiecare dintre termenii."
+
+#: application/modules/default/views/index/index.php:143
+msgid "Autotranslate"
+msgstr "Autotranslate"
+
+#: application/modules/default/views/index/index.php:145
+msgid "Use the Google Translate API for an instant, automatized translation."
+msgstr "Utilizați Google Translate API pentru o traducere instantanee, automatizat."
+
+#: application/modules/default/views/index/index.php:179
+msgid "Visualize length of definition"
+msgstr "Vizualizați lungime de definire"
+
+#: application/modules/default/views/index/index.php:181
+msgid "You will be alerted when your translation exceeds the initial length of the string with a change in coloration."
+msgstr "Veți fi anunțat când traducerea dvs. depășește lungimea inițială a șirului cu o schimbare în colorație."
+
+#: application/modules/default/views/index/index.php:184
+msgid "See white spaces"
+msgstr "Vezi spații albe"
+
+#: application/modules/default/views/index/index.php:186
+msgid "For a more user friendly experience, all whitespaces at the beginning/end of a string will be marked with a &#9251; symbol."
+msgstr "Pentru o experiență de utilizare mai prietenos, toate spații goale la începutul / sfârșitul unui șir va fi marcat cu un simbol ␣."
+
+#: application/modules/default/views/index/index.php:189
+msgid "Interactive mode"
+msgstr "Mod interactiv"
+
+#: application/modules/default/views/index/index.php:191
+msgid "Generate a scroll page with nothing but your undefined terms for a fast translation experience."
+msgstr "Generați o pagină de parcurgere cu nimic, dar dumneavoastră termeni nedefiniți pentru o experiență de traducere rapid."
+
+#: application/modules/default/views/index/index.php:196
+msgid "See the amount of work done by each contributor using the statistics available for each language."
+msgstr "A se vedea volumul de muncă efectuat de fiecare contribuabil utilizând statisticile disponibile pentru fiecare limbă."
+
+#: application/modules/default/views/index/index.php:206
+msgid "Join POEditor"
+msgstr "Înscrieți-POEditor"
+
+#: application/modules/default/views/modules/head.php:2
+msgid "free online software localization tool"
+msgstr "online gratuit software-ul de localizare instrument"
+
+#: application/modules/default/views/projects/import.php:13
+msgid "File"
+msgstr "Fisier"
+
+#: application/modules/default/views/projects/import.php:17
+#: application/modules/default/views/projects/po_edit.php:452
+msgid "Accepted files: Gettext (.po, .pot), Excel* (.xls, .xlsx), Android Resources (.xml), Apple Strings (.strings), Microsoft Resource (.resx)"
+msgstr "Fișiere acceptate: Gettext (.. PO, pot), Excel *, Android Resurse (xml.), Apple a Strings (siruri de caractere.), Microsoft Resource (resx.) (Xls, xlsx.)."
+
+#: application/modules/default/views/projects/import.php:19
+#: application/modules/default/views/projects/po_edit.php:454
+msgid "Excel files columns are read in the following order: terms, definitions, context, reference"
+msgstr "Fisiere Excel coloane sunt citite în următoarea ordine: termeni, definiții, contextul, de referință"
+
+#: application/modules/default/views/projects/interactive.php:26
+msgid "Switch to normal view"
+msgstr "Inapoi in modul normal"
+
+#: application/modules/default/views/projects/interactive.php:276
+msgid "Congratulations!<br/>There are no untranslated terms."
+msgstr "Felicitări! <br/> Momentan nu sunt termeni netraduse."
+
+#: application/modules/default/views/projects/interactive.php:276
+msgid "Please add some terms for translation."
+msgstr "Vă rugăm să adăugați câțiva termeni de traducere."
+
+#: application/modules/default/views/projects/po_edit.php:38
+msgid "Switch to Interactive"
+msgstr "Comutați la Interactive"
+
+#: application/modules/default/views/projects/po_edit.php:80
+msgid "term(s)"
+msgstr "termen(i)"
+
+#: application/modules/default/views/projects/po_edit.php:226
+msgid "Toggle fuzzy translation"
+msgstr "Comutați traducere neclare"
+
+#: application/modules/default/views/projects/po_edit.php:424
+#, fuzzy
+msgid "Android Strings"
+msgstr "Android Coarde"
+
+#: application/modules/default/views/projects/po_edit.php:422
+#, fuzzy
+msgid "Apple Strings"
+msgstr "Apple sree"
+
+#: application/modules/default/views/projects/po_edit.php:426
+msgid "Microsoft Resx"
+msgstr "Microsoft Resx"
+
+#: application/modules/default/views/projects/po_edit.php:335
+msgid "will receive the following text on email"
+msgstr "vor primi următorul text pe e-mail"
+
+#: application/modules/default/views/projects/po_edit.php:345
+msgid "You may also add a personal message to this notification:"
+msgstr "Puteți adăuga, de asemenea, un mesaj personal la această notificare:"
+
+#: application/modules/default/views/projects/stats.php:103
+msgid "Show chart"
+msgstr "Arata grafic"
+
+#: application/modules/default/views/projects/stats.php:114
+msgid "There was no translation in this interval."
+msgstr "Nu a fost nici o traducere în acest interval."
+
+#: application/modules/default/views/projects/stats.php:146
+msgid "Total"
+msgstr "Total"
+
+#: application/modules/default/views/contributors/index.php:19
+#: application/modules/default/views/projects/stats.php:146
+msgid "definitions"
+msgstr "definitii"
+
+#: application/modules/default/views/projects/stats.php:172
+#: application/modules/default/views/projects/stats.php:174
+msgid "Contributors Activity"
+msgstr "Activitatea contribuitorilor"
+
+#: application/modules/default/views/projects/view.php:13
+msgid "View or add terms"
+msgstr "Vizualizarea sau adăuga termeni"
+
+#: application/modules/default/views/projects/view.php:14
+msgid "Import terms"
+msgstr "Importa termeni"
+
+#: application/modules/default/views/projects/view.php:27
+msgid "Use <b>Options</b> button to <a href=\"#{url_import}\">import</a> the terms or <a href=\"#{url_add}\">manually add</a> them."
+msgstr "Utilizați <b> Opțiuni </ b> pentru a <a href=\"#{url_import}\"> de import </ a> termenii sau href=\"#{url_add}\"> <a adăuga manual </ a> acestora."
+
+#: application/modules/default/views/register/index.php:45
+msgid "Create account"
+msgstr "Creați un cont"
+
+#: application/modules/default/controllers/Projects.php:732
+msgid "The contributor was successfully added! Please ask the contributor to check the email for an invitation to join this project."
+msgstr "Contribuabil a fost adăugată cu succes! Vă rugăm să cereți contribuie pentru a verifica e-mail pentru o invitație de a se alătura acestui proiect."
+
+#: application/modules/default/views/index/index.php:123
+msgid "Import from pot, po, xls, xlsx, strings, xml, resx"
+msgstr "Importa din oală, po, xls, xlsx, siruri de caractere, xml, resx"
+
+#: application/modules/default/views/index/index.php:125
+msgid "We currently support popular gettext files like .po and .pot, Excel .xls and .xlsx, Apple .strings, Google Android .xml and Microsoft Windows .resx files."
+msgstr "În prezent, acceptăm fișiere populare, cum ar fi po și gettext.. Pot, Excel. Xls și. Xlsx, Apple. Siruri de caractere, Google Android. Xml și Microsoft Windows fișiere resx.."
+
+#: application/modules/default/views/index/index.php:128
+msgid "Export in po, mo, json, php array, strings, xml, resx"
+msgstr "Export în po, mo, JSON, matrice php, siruri de caractere, xml, resx"
+
+#: application/modules/default/views/modules/script_po_edit.php:14
+msgid "Definition text is longer than term."
+msgstr "Definiție textul este mai lung decât pe termen lung."
+
+#: application/modules/default/views/modules/script_po_edit.php:15
+msgid "Careful! The definition is much longer than the initial term."
+msgstr "Ai grijă! Definiția este mult mai mult decât termenul inițial."
+
+#: application/modules/default/views/modules/script_po_edit.php:16
+msgid "Careful! We use &#9251; to mark leading / trailing whitespaces."
+msgstr "Ai grijă! Noi folosim ␣ pentru a marca conduce / la sfârșit spații goale."
+
+#: application/modules/default/views/projects/interactive.php:197
+msgid "copy"
+msgstr "copiați"
+
+#: application/modules/default/views/projects/po_edit.php:421
+msgid "Pot"
+msgstr "Oală"
+
+#: application/models/projects/Project.php:164
+msgid "You already have that language."
+msgstr "Ai deja aceasta limba."
+
+#: application/models/projects/Project.php:167
+msgid "You've selected the same language."
+msgstr "Ai ales aceeasi limba."
+
+#: application/models/projects/Project.php:186
+msgid "Language not found."
+msgstr "Limba nu a fost gasita."
+
+#: application/models/projects/Project.php:189
+msgid "Please select a language."
+msgstr "Vă rugăm să selectați o limbă."
+
+#: application/modules/default/controllers/Contributors.php:87
+msgid "The contributor was removed from your projects."
+msgstr "Contribuitorul a fost eliminat din proiectele tale."
+
+#: application/modules/default/controllers/Projects.php:222
+msgid "The language was changed."
+msgstr "Limba a fost schimbată."
+
+#: application/modules/default/controllers/Projects.php:237
+msgid "Language was not found!"
+msgstr "Limba nu a fost gasit!"
+
+#: application/modules/default/controllers/Projects.php:242
+msgid "This language was already added!"
+msgstr "Acest limbaj a fost deja adăugată!"
+
+#: application/modules/default/controllers/Projects.php:1460
+msgid "Language was not found."
+msgstr "Limba nu a fost găsit."
+
+#: application/modules/default/views/account/edit.php:41
+#: application/modules/default/views/account/index.php:49
+msgid "Notification Bubbles"
+msgstr "Notificare Bubbles"
+
+#: application/modules/default/views/account/edit.php:41
+#: application/modules/default/views/account/index.php:49
+msgid "Notification bubbles will pop up each time your translation exceeds twice the initial length of the string and when the &#9251; symbol, which marks white spaces, appears in a definition."
+msgstr "Bule de notificare va apărea de fiecare dată când traducerea dvs. depășește de două ori lungimea inițială a șirului și atunci când simbolul ␣, care marchează spațiile albe, apare într-o definiție."
+
+#: application/modules/default/views/auto_translate/language.php:75
+msgid "We will translate only the singular form."
+msgstr "Vom traduce doar forma de singular."
+
+#: application/modules/default/views/projects/stats.php:30
+msgid "Terms Char Count"
+msgstr "Condiții de Contele Char"
+
+#: application/modules/default/views/projects/stats.php:42
+msgid "Definitions Char Count"
+msgstr "Definiții Contele Char"
+
+#: application/modules/default/views/projects/view.php:69
+msgid "Click to change language"
+msgstr "Click pentru a schimba limba"
+
+#: application/modules/default/views/projects/view.php:125
+#: application/modules/default/views/projects/view.php:158
+msgid "Not in this list?"
+msgstr "Nu e in lista?"
+
+#: application/modules/default/views/projects/view.php:125
+#: application/modules/default/views/projects/view.php:158
+msgid "Show All"
+msgstr "Arata-le pe toate"
+
+#: application/modules/default/views/projects/view.php:138
+msgid "Change language"
+msgstr "Schimba limba"
+
+#: application/modules/default/views/projects/view.php:143
+msgid "There are some plurals and you will lose them if you change the Language."
+msgstr "Există unele forme de plural și le va pierde, dacă vă schimbați limba."
+
+#: application/modules/default/views/projects/view.php:145
+msgid "Are you sure you want to do this?"
+msgstr "Sigur vrei sa faci asta?"
+
+#: application/modules/default/controllers/Projects.php:80
+#: application/modules/default/controllers/Projects.php:83
+#: application/modules/default/views/projects/translation_memory.php:13
+msgid "Translation Memory"
+msgstr "Traducere de memorie"
+
+#: application/modules/default/controllers/Projects.php:111
+msgid "No results"
+msgstr "Nu sunt rezultate"
+
+#: application/modules/default/controllers/Projects.php:113
+#: application/modules/default/views/projects/translation_memory.php:192
+msgid "No more results"
+msgstr "Nu mai sunt rezultate"
+
+#: application/modules/default/views/index/index.php:152
+msgid "Support for plural forms"
+msgstr "Suport pentru formele de plural"
+
+#: application/modules/default/views/index/index.php:154
+msgid "Because most languages alter the form of a word being counted based on the count, in POEditor terms with plurals have corresponding definitions spaces divided in tabs for each plural form."
+msgstr "Deoarece cele mai multe limbi modifica forma unui cuvânt să fie numărate în funcție de numărul, în ceea ce privește POEditor cu forme de plural au spații corespunzătoare definițiilor împărțită în file pentru fiecare formă de plural."
+
+#: application/modules/default/views/index/index.php:148
+#: application/modules/default/views/projects/po_edit.php:23
+msgid "Translation memory"
+msgstr "Memorie de traducere"
+
+#: application/modules/default/views/projects/translation_memory.php:14
+msgid "Accept translation"
+msgstr "Accepta traducerea"
+
+#: application/modules/default/views/projects/translation_memory.php:23
+msgid "Start searching"
+msgstr "Începeți căutarea"
+
+#: application/modules/default/views/projects/translation_memory.php:26
+msgid "Translation complete!"
+msgstr "Completă traducere!"
+
+#: application/modules/default/views/projects/translation_memory.php:28
+msgid "You may view the translations by clicking on this <a href='#{url}'>link</a>."
+msgstr "Puteți vizualiza traducerile, făcând clic pe acest link <a href='#{url}'> </ a>."
+
+#: application/modules/default/views/projects/translation_memory.php:37
+#: application/modules/default/views/projects/translation_memory.php:64
+msgid "Searching"
+msgstr "Căutare"
+
+#: application/modules/default/views/projects/translation_memory.php:44
+msgid "No."
+msgstr "Nu."
+
+#: application/modules/default/views/projects/translation_memory.php:46
+msgid "Translation"
+msgstr "Traducere"
+
+#: application/modules/default/views/projects/translation_memory.php:69
+#: application/modules/default/views/projects/translation_memory.php:162
+msgid "Remove translation"
+msgstr "Elimină traducere"
+
+#: application/modules/default/views/projects/translation_memory.php:70
+msgid "Put it back"
+msgstr "Pune-o înapoi"
+
+#: application/models/user/User.php:119
+msgid "The API token was generated."
+msgstr "Jeton API a fost generat."
+
+#: application/models/user/User.php:124
+msgid "A new API token was generated."
+msgstr "Un nou API jeton a fost generat."
+
+#: application/models/user/User.php:128
+msgid "Unknown action."
+msgstr "Necunoscut acțiune."
+
+#: application/modules/default/controllers/Account.php:27
+#: application/modules/default/controllers/Account.php:28
+#: application/modules/default/views/account/api.php:16
+#: application/modules/default/views/account/index.php:18
+msgid "API access"
+msgstr "Accesul API"
+
+#: application/modules/default/views/account/api.php:21
+msgid "API token"
+msgstr "API jeton"
+
+#: application/modules/default/views/account/api.php:24
+msgid "Regenerate"
+msgstr "Regenera"
+
+#: application/modules/default/views/account/api.php:28
+msgid "Lock API"
+msgstr "Lock API"
+
+#: application/modules/default/views/account/api.php:31
+msgid "You can find out more about this API by accessing this link:"
+msgstr "Puteți afla mai multe despre această API accesând acest link:"
+
+#: application/modules/default/views/account/api.php:31
+msgid "API Documentation"
+msgstr "Documentație API"
+
+#: application/modules/default/views/account/api.php:68
+msgid "Unlock API Access"
+msgstr "Deblocare Acces API"
+
+#: application/modules/default/views/account/api.php:69
+msgid "Click the button in order to allow API access within your account."
+msgstr "Apasa butonul ca sa permiti acces prin API in contul tau."
+
+#: application/modules/default/views/account/api.php:72
+msgid "Unlock"
+msgstr "Deblocheaza"
+
+#: application/modules/default/views/email/inactive_notification.php:7
+msgid "You haven't been active on POEditor for #{days} days."
+msgstr "Tu nu au fost active pe POEditor de zile} {# zile."
+
+#: application/modules/default/views/email/inactive_notification.php:9
+msgid "To keep our service fast, we need to maintain our servers as airy as possible."
+msgstr "Pentru a păstra rapid serviciului nostru, avem nevoie de a menține serverele noastre cât posibil aerisită."
+
+#: application/modules/default/views/email/inactive_notification.php:11
+msgid "Please take notice that, if you don't log on to your account for more than 90 consecutive days, all your projects will be deleted."
+msgstr "Vă rugăm să luați preaviz pe care, dacă nu conectați la contul dvs. pentru mai mult de 90 de zile consecutive, toate proiectele vor fi șterse."
+
+#: application/modules/default/views/email/inactive_notification.php:13
+msgid "You will receive this message <b>three</b> times (with 60, 30 and 7 days) before this happens."
+msgstr "Veți primi acest mesaj <b> trei </ b> (nr de ori cu zi 60, 30 și 7) înainte de a se intampla acest lucru."
+
+#: application/modules/default/views/email/inactive_notification.php:15
+msgid "As you have been notified, all your projects have been deleted due to 90 days of inactivity on POEditor."
+msgstr "După cum au fost notificate, toate proiectele au fost șterse din cauza la 90 de zile de inactivitate pe POEditor."
+
+#: application/modules/default/views/email/inactive_notification.php:16
+msgid "Your account is still active and you can use it at any time."
+msgstr "Contul dvs. este în continuare activ și îl puteți folosi în orice moment."
+
+#: application/modules/default/controllers/Help.php:8
+#: application/modules/default/controllers/Help.php:14
+msgid "Help"
+msgstr "Ajutor"
+
+#: application/modules/default/views/help/index.php:28
+msgid "Go to"
+msgstr "Du-te la"
+
+#: application/modules/default/views/modules/users_notification.php:16
+msgid "Dismiss"
+msgstr "Concedia"
+
+#: application/modules/default/views/terms/index.php:22
+msgid "PO Editor is an online service (\"Service\") which can be used on various stationary and/or mobile devices. PO Editor is made and operated by DATA SOLUTIONS S.R.L., 17, Virgiliu St., Bucharest, Romania, European Union (\"DATA SOLUTIONS\"). This document sets forth certain terms and conditions  (\"Terms\") of the legal contract between you (\"User\") and DATA SOLUTIONS with respect to User's use of the DATA SOLUTIONS Service, whether as an individual user or representing an organization."
+msgstr "PO Editor este un serviciu on-line (\"Serviciul\"), care poate fi folosit pe diferite dispozitive staționare și / sau mobile. PO Editor se face și operat de către DATA SOLUTIONS SRL, 17, St Virgiliu, București, România, Uniunea Europeană (\"DATA SOLUTIONS\"). Acest document stabilește anumitor termeni și condiții (\"Termeni\") de contract legal între dumneavoastră (\"Utilizatorul\") și soluții de date cu privire la utilizarea de utilizare a Serviciului DATA SOLUTIONS, fie ca un utilizator individual sau reprezentând o organizație."
+
+#: application/models/user/User.php:506
+msgid "This user is administrator of this project. You cannot add him as contributor."
+msgstr "Acest utilizator este administrator al acestui proiect. Nu-l poți adăuga de contributor."
+
+#: application/models/user/User.php:520
+msgid "The administrator is already selected for this project"
+msgstr "Administratorul este deja selectată pentru acest proiect"
+
+#: application/modules/default/controllers/Contributors.php:127
+#: application/modules/default/controllers/Projects.php:1529
+msgid "The admin access was removed!"
+msgstr "Accesul admin a fost eliminat!"
+
+#: application/modules/default/controllers/Contributors.php:129
+msgid "The admin access was not found!"
+msgstr "Accesul admin nu a fost găsit!"
+
+#: application/modules/default/controllers/Projects.php:733
+msgid "You can't add the owner of the project as a contributor."
+msgstr "Nu puteți adăuga proprietarul proiectului ca un contribuitor."
+
+#: application/modules/default/controllers/Projects.php:736
+msgid "The administrator was successfully added! Please ask the administrator to check the email for an invitation to join this project."
+msgstr "Administratorul a fost adăugată cu succes! Vă rugăm să cereți administratorului să verifice e-mail pentru o invitație de a se alătura acestui proiect."
+
+#: application/modules/default/controllers/Projects.php:737
+msgid "You can't add yourself as administrator."
+msgstr "Nu te poti adauga ca adminstrator"
+
+#: application/modules/default/controllers/Projects.php:738
+msgid "This administrator has already an account in our system and was added with the name:"
+msgstr "Acest administrator are deja un cont în sistemul nostru și a fost adăugată cu numele:"
+
+#: application/modules/default/controllers/Projects.php:739
+msgid "The administrator does not exist."
+msgstr "Administratorul nu există."
+
+#: application/modules/default/controllers/Projects.php:1531
+msgid "The administrator was not found!"
+msgstr "Administratorul nu a fost gasit!"
+
+#: application/modules/default/views/contributors/index.php:34
+#: application/modules/default/views/projects/stats.php:82
+msgid "Admin"
+msgstr "Admin"
+
+#: application/modules/default/views/projects/settings.php:110
+msgid "Remove"
+msgstr "Scoate"
+
+#: application/modules/default/views/index/index.php:137
+msgid "Multiple administrators"
+msgstr "Mai multor administratori"
+
+#: application/modules/default/views/index/index.php:150
+msgid "Search through your terms and projects for similar texts with the option of choosing which translations to give up."
+msgstr "Căutați prin termenii și proiecte pentru texte similare, cu posibilitatea de a alege, care traducerile să renunțe."
+
+#: application/modules/default/views/index/index.php:198
+msgid "Rest API"
+msgstr "Restul API"
+
+#: application/modules/default/views/index/index.php:200
+msgid "Connect your software to POEditor with the special API and forget all about handling localization files. The API allows you to import terms directly to your projects. More info on how to use the API <a href=\"https://sites.google.com/site/poeditorapi/\" target=\"blank\">here</a>."
+msgstr "Conectați software-ul pentru a POEditor cu API-ul special si uita totul despre manipularea fișierelor de localizare. API vă permite să importați termeni direct la proiectele dumneavoastra. Mai multe informații cu privire la modul de a utiliza API-ul <a href=\"https://sites.google.com/site/poeditorapi/\" target=\"blank\"> aici </ a>."
+
+#: application/modules/default/views/projects/settings.php:62
+msgid "Full access to project"
+msgstr "Acces complet la proiect"
+
+#: application/modules/default/views/projects/settings.php:64
+#: application/modules/default/views/projects/settings.php:262
+msgid "Add administrator"
+msgstr "Adauga administrator"
+
+#: application/modules/default/views/projects/settings.php:72
+msgid "Administrators"
+msgstr "Administratori"
+
+#: application/modules/default/views/projects/settings.php:81
+msgid "Click to remove full access"
+msgstr "Click pentru a elimina accesul deplin"
+
+#: application/modules/default/views/projects/settings.php:90
+msgid "No administrators."
+msgstr "Nu exista administratori."
+
+#: application/modules/default/views/projects/settings.php:108
+msgid "Remove full access to project"
+msgstr "Scoateți acces complet la proiect"
+
+#: application/modules/default/views/projects/settings.php:109
+msgid "Are you sure you want to remove the full access of this user?"
+msgstr "Sunteți sigur că doriți să eliminați accesul deplin al acestui utilizator?"
+
+#: application/modules/default/views/projects/settings.php:199
+msgid "Add administrators to"
+msgstr "Adauga administratorilor să"
+
+#: application/modules/default/views/projects/view.php:20
+msgid "Flush terms &amp; definitions"
+msgstr "Sterge termenii si definitiile"
+
+#: application/models/HTML.php:21
+#: application/modules/default/views/contributors/index.php:78
+#: application/modules/default/views/projects/index.php:95
+msgid "Pending"
+msgstr "In asteptare"
+
+#: application/models/HTML.php:24
+msgid "Public"
+msgstr "Public"
+
+#: application/models/Record.php:170
+msgid "years"
+msgstr "ani"
+
+#: application/models/Record.php:171
+msgid "months"
+msgstr "luni"
+
+#: application/models/Record.php:172
+msgid "weeks"
+msgstr "saptamani"
+
+#: application/models/Record.php:173
+msgid "days"
+msgstr "zile"
+
+#: application/models/Record.php:174
+msgid "hours"
+msgstr "ore"
+
+#: application/models/Record.php:175
+msgid "minutes"
+msgstr "minute"
+
+#: application/models/Record.php:176
+msgid "seconds"
+msgstr "secunde"
+
+#: application/models/Record.php:179
+msgid "year"
+msgstr "an"
+
+#: application/models/Record.php:180
+msgid "month"
+msgstr "luna"
+
+#: application/models/Record.php:181
+msgid "week"
+msgstr "saptamana"
+
+#: application/models/Record.php:182
+msgid "day"
+msgstr "zi"
+
+#: application/models/Record.php:183
+msgid "hour"
+msgstr "ora"
+
+#: application/models/Record.php:184
+msgid "minute"
+msgstr "minut"
+
+#: application/models/Record.php:185
+msgid "second"
+msgstr "secunda"
+
+#: application/models/user/User.php:658
+msgid "New contributor"
+msgstr "Noul colaborator"
+
+#: application/modules/default/controllers/AutoTranslate.php:26
+msgid "Access to automatic translation for this project has been restricted."
+msgstr "Accesul la traducerea automată pentru acest proiect a fost restricționat."
+
+#: application/modules/default/controllers/AutoTranslate.php:100
+msgid "Access restricted."
+msgstr "Acces restricționat."
+
+#: application/modules/default/controllers/Contributors.php:64
+msgid "The status was updated"
+msgstr "Starea a fost actualizat"
+
+#: application/modules/default/controllers/Contributors.php:90
+msgid "You may remove contributors from your own projects only."
+msgstr "Puteți scoate contribuitori la proiectele tale numai."
+
+#: application/modules/default/controllers/Projects.php:834
+#: application/modules/default/controllers/Projects.php:841
+msgid "%s term(s) parsed, %s term(s) added."
+msgstr "%s termen(i) parsati, %s termen(i) adaugati."
+
+#: application/modules/default/views/contributors/index.php:36
+#: application/modules/default/views/contributors/index.php:113
+msgid "Revoke access"
+msgstr "Revoca accesul"
+
+#: application/modules/default/views/contributors/index.php:52
+msgid "Approved"
+msgstr "Aprobat"
+
+#: application/modules/default/views/contributors/index.php:56
+#: application/modules/default/views/contributors/index.php:83
+msgid "Block"
+msgstr "Bloca"
+
+#: application/modules/default/views/contributors/index.php:58
+#: application/modules/default/views/contributors/index.php:71
+#: application/modules/default/views/contributors/index.php:85
+#: application/modules/default/views/contributors/index.php:115
+#: application/modules/default/views/contributors/index.php:127
+msgid "Revoke"
+msgstr "Revoca"
+
+#: application/modules/default/views/contributors/index.php:65
+msgid "Blocked"
+msgstr "Blocat"
+
+#: application/modules/default/views/contributors/index.php:69
+#: application/modules/default/views/contributors/index.php:82
+msgid "Approve"
+msgstr "Aproba"
+
+#: application/modules/default/views/contributors/index.php:114
+msgid "Are you sure you want to revoke user's access to this language?"
+msgstr "Sunteți sigur că doriți să revocați accesul utilizatorului la aceasta limba?"
+
+#: application/modules/default/views/contributors/index.php:125
+msgid "Revoke Admin Access"
+msgstr "Revoca accesul Admin"
+
+#: application/modules/default/views/contributors/index.php:126
+msgid "Are you sure you want to revoke the admin access of user?"
+msgstr "Sunteți sigur că doriți să revocați accesul admin de utilizator?"
+
+#: application/modules/default/views/email/contributor_approved.php:7
+msgid "You may now start translating."
+msgstr "Acum puteți începe traducerea."
+
+#: application/modules/default/views/email/join_project.php:12
+#: application/modules/default/views/email/join_project_new.php:12
+msgid "Contributions to this project are moderated. Until the owner approves you, you won't be able to access it. An email will be sent to notify you when this happens."
+msgstr "Contribuțiile la acest proiect sunt moderate. Până la proprietarul vă aprobă, nu veți fi capabil să-l accesa. Un e-mail va fi trimis pentru a vă anunța când se întâmplă acest lucru."
+
+#: application/modules/default/views/email/new_contributor_joins_project.php:5
+msgid "<b>%s</b> has enrolled as a contributor for the open project <b>%s</b> on POEditor."
+msgstr "<b>% s </ b> a înscris ca o contribuție pentru proiectul lui deschisă% <b> </ b> pe POEditor."
+
+#: application/modules/default/views/email/new_contributor_joins_project.php:14
+msgid "Because the project is set as moderated, you will have to approve him/her before he/she can begin translating."
+msgstr "Deoarece proiectul este setat ca moderat, va trebui să aprobe el / ea înainte de el / ea poate începe traducerea."
+
+#: application/modules/default/views/email/new_contributor_joins_project.php:16
+msgid "Here's a quick link to the contributors page:"
+msgstr "Aici e un link rapid la pagina de contribuitori:"
+
+#: application/modules/default/views/index/index.php:139
+msgid "Add extra administrators to your projects for a more dynamic team management process."
+msgstr "Adauga administratorii suplimentare pentru proiectele dvs. pentru un proces mai dinamic echipa de management."
+
+#: application/modules/default/views/index/index.php:167
+msgid "Public Projects"
+msgstr "Proiecte publice"
+
+#: application/modules/default/views/index/index.php:169
+msgid "Set projects to \"Public\" to recruit volunteer translators. You will receive a link that you can publish on your website in order to invite people to enroll as contributors."
+msgstr "Set proiecte la \"public\", pentru a recruta voluntari traducători. Vei primi un link pe care aveți posibilitatea să publicați pe site-ul dvs., în scopul de a invita oamenii sa se inscrie ca si colaboratori."
+
+#: application/modules/default/views/projects/load_languages.php:17
+msgid "Set"
+msgstr "Set"
+
+#: application/modules/default/views/projects/load_languages.php:20
+msgid "No available languages."
+msgstr "Nu e disponibila nici o limba "
+
+#: application/modules/default/views/projects/load_languages.php:23
+msgid "Ask the project's owner for access."
+msgstr "Intreaba proprietarului de proiect pentru acces."
+
+#: application/modules/default/views/projects/po_edit.php:26
+msgid "Set reference language"
+msgstr "Setați limba de referință"
+
+#: application/modules/default/views/projects/po_edit.php:222
+msgid "%s ago"
+msgstr "% E în urmă"
+
+#: application/modules/default/views/projects/po_edit.php:276
+msgid "No available terms for this project."
+msgstr "Nu există termeni disponibile pentru acest proiect."
+
+#: application/modules/default/views/projects/po_edit.php:278
+msgid "<a href=\"#{url_import}\">Import</a> terms or <a href=\"#{url_add}\">manually add</a> them."
+msgstr "<a href=\"#{url_import}\">Importa</a> termeni sau <a href=\"#{url_add}\">adauga-i manual</a>."
+
+#: application/modules/default/views/projects/po_edit.php:311
+msgid "Choose a reference language"
+msgstr "Alege o limba de referință"
+
+#: application/modules/default/views/projects/po_edit.php:318
+msgid "Terms in the selected reference language will appear right under the initial terms."
+msgstr "Termeni în limba de referință selectată va apărea chiar în condițiile inițiale."
+
+#: application/modules/default/views/projects/po_edit.php:360
+msgid "This will permanently delete the language from the project and the translations done on it."
+msgstr "Aceasta va șterge permanent limba de proiect și traducerile efectuate pe ea."
+
+#: application/modules/default/views/projects/po_edit.php:366
+msgid "This will permanently erase all the translations done so far on this language."
+msgstr "Aceasta va șterge permanent toate traducerile efectuate până în prezent în această limbă."
+
+#: application/modules/default/views/projects/po_edit.php:372
+msgid "Are you sure you want to copy terms to empty definitions ?"
+msgstr "Sunteți sigur că doriți să copiați termeni la definiții goale?"
+
+#: application/modules/default/views/projects/po_edit.php:374
+msgid "Only untranslated terms (terms without definitions) will be copied to definitions."
+msgstr "Numai termeni netraduse (termeni fără definiții) vor fi copiate la definiții."
+
+#: application/modules/default/views/projects/po_edit.php:375
+msgid "Copy"
+msgstr "Copiaza"
+
+#: application/modules/default/views/projects/po_edit.php:459
+msgid "Definitions for this language will be filled in with the definitions from the selected import file."
+msgstr "Definiții pentru această limbă vor fi completate cu definițiile din fișierul de import selectat."
+
+#: application/modules/default/views/projects/settings.php:28
+#: application/modules/default/views/projects/settings.php:134
+msgid "Public project"
+msgstr "Proiect public"
+
+#: application/modules/default/views/projects/settings.php:28
+#: application/modules/default/views/projects/settings.php:134
+msgid "Setting projects to public allows contributors to self enroll. Publish the link below on your website so translators can follow it to join your public projects."
+msgstr "Setarea proiecte pentru a permite publicului contribuitori la auto înscrie. Publica link-ul de mai jos pe site-ul dvs., astfel încât traducătorii pot urmați-l să se alăture proiectelor dvs. publice."
+
+#: application/modules/default/views/projects/settings.php:37
+#: application/modules/default/views/projects/settings.php:145
+msgid "Requires moderation"
+msgstr "Necesită moderare"
+
+#: application/modules/default/views/projects/settings.php:37
+#: application/modules/default/views/projects/settings.php:145
+msgid "Moderated public projects need the owner's approval before a volunteering contributor can start translating."
+msgstr "Proiecte publice moderat nevoie de aprobarea proprietarului înainte de un contribuabil de voluntariat poate începe traducerea."
+
+#: application/modules/default/views/projects/settings.php:41
+#: application/modules/default/views/projects/settings.php:156
+msgid "Limiting access to automatic translation on public projects will only allow owners and administrators to use this function."
+msgstr "Limitarea accesului la traducerea automată pe proiecte publice va permite numai proprietarilor și administratorilor de a folosi această funcție."
+
+#: application/modules/default/views/projects/settings.php:42
+#: application/modules/default/views/projects/settings.php:161
+msgid "Limited"
+msgstr "Limitat"
+
+#: application/modules/default/views/projects/settings.php:42
+#: application/modules/default/views/projects/settings.php:160
+msgid "Everyone"
+msgstr "Toti"
+
+#: application/modules/default/views/projects/settings.php:45
+msgid "Read access to all languages"
+msgstr "Citește acces la toate limbile"
+
+#: application/modules/default/views/projects/settings.php:45
+#: application/modules/default/views/projects/settings.php:167
+msgid "Read access is required for contributors to use the \"Set reference language\" option"
+msgstr "Citește accesul este necesar pentru contribuabili de a utiliza \"limba de referință stabilit\" opțiunea"
+
+#: application/modules/default/views/projects/settings.php:90
+msgid "Administrators have the same attributes as project owners, except for adding or deleting administrators or deleting project."
+msgstr "Administratorii au aceleași atribute ca și proprietari de proiecte, cu excepția pentru adăugarea sau ștergerea administratori sau ștergerea proiectului."
+
+#: application/modules/default/views/projects/settings.php:167
+msgid "Read access"
+msgstr "Citește acces"
+
+#: application/modules/default/views/projects/translation_memory.php:19
+msgid "Translation memory allows you to search through your translated projects and terms for similar texts, so that you can give up unwanted translations."
+msgstr "Memorie de traducere vă permite să căutați și prin proiectele traduse și termenii de texte similare, astfel încât să puteți renunța traduceri nedorite."
+
+#: application/modules/default/views/projects/translation_memory.php:21
+msgid "Press the button below to start searching for translations."
+msgstr "Apasati butonul de mai jos pentru a începe să căutați pentru traduceri."
+
+#: application/modules/default/views/projects/view.php:290
+msgid "An email invitation will be sent to this person to join your project as a contributor."
+msgstr "O invitație de e-mail va fi trimis la această persoană să se alăture proiectului dvs. ca un contribuitor."
+
+#: application/models/user/User.php:38
+msgid "You've been approved to join project #{project_name} hosted on #{site_name}."
+msgstr "Ai fost aprobată să se alăture proiectului # {} project_name găzduit pe # {SITE_NAME}."
+
+#: application/models/user/User.php:596
+msgid "You've been added as a contributor to #{project_name} on POEditor.com"
+msgstr "Ai fost adăugată ca un factor care contribuie la # {} project_name pe POEditor.com"
+
+#: application/models/user/User.php:598
+msgid "You've been added as administrator to #{project_name} on POEditor.com"
+msgstr "Ai fost adăugat ca administrator pentru a # {} project_name pe POEditor.com"
+
+#: application/models/user/User.php:632
+msgid "You've chosen to join project #{project_name} hosted on #{site_name}."
+msgstr "Ați ales să se alăture proiectului # {} project_name găzduit pe # {SITE_NAME}."
+
+#: application/modules/default/views/email/contributor.php:6
+#: application/modules/default/views/email/new_contributor.php:4
+msgid "You've been assigned to project <b>#{project_name}</b> hosted on #{site_name}."
+msgstr "Ai fost alocate pentru proiectul <b> # {} project_name </ b> găzduit pe # {SITE_NAME}."
+
+#: application/modules/default/views/email/contributor.php:13
+#: application/modules/default/views/email/join_project.php:15
+#: application/modules/default/views/email/join_project_new.php:15
+#: application/modules/default/views/email/new_contributor.php:11
+#: application/modules/default/views/email/notification.php:11
+#: application/modules/default/views/projects/po_edit.php:341
+msgid "If you have any questions, contact the owner of this project at #{email_address}."
+msgstr "Dacă aveți întrebări, contactați proprietarul acestui proiect la # {EMAIL_ADDRESS}."
+
+#: application/modules/default/views/email/contributor.php:18
+msgid "You can access this project by clicking <a href=\"#{url}\">here</a>."
+msgstr "Poti accesa proiectul dand click <a href=\"#{url}\">aici</a>."
+
+#: application/modules/default/views/email/contributor_approved.php:4
+msgid "You have been approved as a contributor for the project <b>%s</b> hosted on %s."
+msgstr "Ați fost aprobat ca un factor care contribuie pentru proiectul lui <b>% </ b> a găzduit pe% s."
+
+#: application/modules/default/views/email/join_project.php:4
+#: application/modules/default/views/email/join_project_new.php:4
+msgid "You've chosen to join project <b>#{project_name}</b> hosted on #{site_name}."
+msgstr "Ați ales să se alăture proiectului <b> # {} project_name </ b> găzduit pe # {SITE_NAME}."
+
+#: application/modules/default/views/email/notification.php:6
+#: application/modules/default/views/projects/po_edit.php:337
+msgid "This is a notification to remind you that you've been assigned to project <b>#{project_name}</b> hosted on #{site_name}."
+msgstr "Aceasta este o notificare pentru a vă reaminti că ați fost desemnat să proiecteze <b> # {} project_name </ b> găzduit pe # {SITE_NAME}."
+
