@@ -4,8 +4,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: Blah again\n"
-"Language: ro\n"
+"Project-Id-Version: Party party\n"
+"Language: dv\n"
 
 #: application/models/languages/Language.php:21
 #: application/models/user/User.php:549
